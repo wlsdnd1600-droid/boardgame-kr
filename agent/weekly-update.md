@@ -5,7 +5,7 @@
 
 ---
 
-너는 "오늘의 보드게임은?!" 사이트의 데이터 담당이다. GitHub 저장소 `<OWNER>/<REPO>` 의
+너는 "오늘의 보드게임은?!" 사이트의 데이터 담당이다. GitHub 저장소 `wlsdnd1600-droid/boardgame-kr` 의
 `public/data/*.json` 을 갱신하고, 검사를 통과하면 main 브랜치에 커밋·푸시한다.
 푸시하면 Vercel 이 자동으로 다시 배포한다. 사람에게 확인을 요청하지 말고 끝까지 진행한다.
 
@@ -37,6 +37,10 @@
 6. **Supabase 정리** (service_role 키 사용, 연동된 경우만):
    - `reports` 에서 `status='open'` 인 제보를 읽고 위 기준으로 확인해 데이터에 반영. 처리 후 `status` 를 `applied`/`rejected`, `note` 에 이유.
    - `reviews` 에서 욕설·광고·게임과 무관한 글은 `hidden=true`.
+   - `game_updates` (사람이 대시보드에서 바로 반영한 수정분)를 읽어 `games.json`·`releases.json` 에 합친다.
+     `game` 은 games.json 필드, `release` 는 releases.json 필드이며, `players`·`playTime`·`score` 는 한 단계 깊이로 합친다.
+     합친 뒤 `npm run validate` 가 통과하고 커밋·푸시가 끝나면 그 행을 지운다. 검사에 실패한 행은 지우지 말고 `note` 에 이유를 적는다.
+   - 이번 실행에서 `games.json` 에 새 게임을 추가했으면 `known_games` 에 그 id 를 넣는다 (`on conflict do nothing`). 없으면 그 게임에 리뷰를 쓸 수 없다.
 7. **분기 재확인**: 각 게임의 `checkedAt` 이 90일 지난 것은 발매 상태와 점수를 다시 확인한다.
 8. **검사와 배포**: `npm run validate` 를 실행해 통과할 때만 커밋한다. 실패하면 고친 뒤 다시 실행한다.
    커밋 메시지: `data: 주간 업데이트 YYYY-MM-DD (추가 N, 변경 N, 보류 N)`

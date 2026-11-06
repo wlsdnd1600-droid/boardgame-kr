@@ -27,6 +27,16 @@ export async function fetchRatingStats() {
   return Object.fromEntries(data.map((r) => [r.game_id, r]));
 }
 
+// 배포 없이 바로 반영하는 게임 수정분. 응답이 늦으면(3초) JSON 데이터만으로 화면을 그립니다.
+export async function fetchGameUpdates() {
+  const sb = await getSupabase();
+  if (!sb) return [];
+  const query = sb.from("game_updates").select("game_id, game, release, updated_at")
+    .then(({ data, error }) => { if (error) { console.warn(error); return []; } return data; });
+  const timeout = new Promise((resolve) => setTimeout(() => resolve([]), 3000));
+  return Promise.race([query, timeout]);
+}
+
 export async function fetchReviews(gameId) {
   const sb = await getSupabase();
   if (!sb) return null;

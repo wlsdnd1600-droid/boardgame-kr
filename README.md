@@ -18,6 +18,7 @@ public/                 ← Vercel 이 그대로 배포하는 폴더 (빌드 도
     list.js             필터·정렬 화면
     game.js             상세 화면, 회원 리뷰·제보
     supabase.js         Supabase 연결 (설정이 없으면 "연동 전" 상태)
+    rules.js            게임·발매 데이터 검사 규칙 (검사 스크립트와 브라우저 공용)
     style.css
   data/                 ← Claude 주간 작업이 갱신하는 데이터
     games.json          게임 정보, 난이도, 장르, 점수 요소
@@ -30,7 +31,8 @@ scripts/
   build-config.mjs      환경변수 → public/config.js
   validate-data.mjs     데이터 검사 (실패하면 빌드 중단)
   serve.mjs             로컬 미리보기 서버
-supabase/schema.sql     회원 리뷰·제보 테이블과 보안 정책
+  gen-known-games-sql.mjs  games.json id → Supabase known_games 시드 SQL
+supabase/migrations/    회원 리뷰·제보·실시간 게임 수정 테이블과 보안 정책 (파일명 순서대로 실행)
 agent/weekly-update.md  Claude 예약 작업용 프롬프트
 ```
 
@@ -43,15 +45,14 @@ npm run dev        # http://localhost:3000
 npm run validate   # 데이터 검사
 ```
 
-## 연동 방법 (나중에)
+## 연동 방법
 
 ### 1. GitHub
-1. 새 저장소를 만들고 이 폴더 전체를 올립니다.
-2. `agent/weekly-update.md` 의 `<OWNER>/<REPO>` 를 실제 저장소 이름으로 바꿉니다.
+저장소: `wlsdnd1600-droid/boardgame-kr` (공개)
 
 ### 2. Supabase
 1. 새 프로젝트를 만듭니다 (리전: Northeast Asia (Seoul) 권장).
-2. SQL Editor 에서 `supabase/schema.sql` 을 실행합니다.
+2. SQL Editor 에서 `supabase/migrations/` 의 파일을 이름 순서대로 실행합니다. 다시 실행해도 오류가 나지 않습니다.
 3. Settings → API 에서 `Project URL` 과 `anon public` 키를 복사합니다.
 4. `service_role` 키는 Claude 예약 작업에만 쓰고, 저장소·브라우저에는 절대 넣지 않습니다.
 
@@ -64,6 +65,21 @@ npm run validate   # 데이터 검사
 ### 4. Claude 예약 작업
 1. Claude 에서 주 1회 예약 작업을 만들고 `agent/weekly-update.md` 의 프롬프트를 넣습니다.
 2. 작업이 GitHub 저장소에 푸시할 수 있도록 연결하고, Supabase service_role 키를 작업 환경에만 제공합니다.
+
+## 배포 없이 게임 추가·수정하기 (실시간)
+
+Supabase 대시보드 → Table Editor → `game_updates` 에 행을 넣으면 다음 페이지 로드부터 바로 반영됩니다.
+
+| 열 | 내용 |
+| --- | --- |
+| `game_id` | 게임 id (기존 게임이면 games.json 의 id, 새 게임이면 영문 소문자·숫자·하이픈) |
+| `game` | 바꿀 games.json 필드만. 예: `{"players": {"max": 5}, "age": 10}` |
+| `release` | 바꿀 releases.json 필드만. 예: `{"officialStock": "soldOut"}` |
+| `note` | 수정 이유 메모 (공개 읽기 가능하니 개인 정보는 쓰지 않기) |
+
+- 새 게임은 `game` 에 games.json 의 필수 필드 전부, `release` 에 `status`·`sourceUrls`·`checkedAt` 등을 넣습니다. 사진(`image`)은 쓰지 않습니다.
+- 브라우저가 합친 결과를 `public/assets/rules.js` 규칙으로 검사해 통과하지 못하면 그 행은 무시합니다 (콘솔에 이유 표시). DB 도 BGG 주소, 발매 상태값, confirmed 의 출처·확인일, 난이도·인원 범위를 막습니다.
+- 매주 Claude 작업이 이 수정분을 JSON 에 합쳐 커밋하고 행을 지웁니다. 기준 데이터는 계속 저장소입니다.
 
 ## 계산 규칙
 

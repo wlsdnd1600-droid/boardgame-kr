@@ -1,5 +1,8 @@
 // 데이터 로드와 계산 로직 (목록·상세 페이지 공용)
 // 게임 데이터는 public/data/*.json 이며, Claude 주간 작업이 갱신합니다.
+// Supabase game_updates 에 수정분이 있으면 배포 없이 그 위에 덮어씁니다.
+import { fetchGameUpdates } from "./supabase.js";
+import { checkGame, checkRelease } from "./rules.js";
 
 export const DIFFICULTY_LEVELS = [
   { id: 1, label: "입문", min: 1.0, max: 1.79 },
@@ -73,13 +76,47 @@ export function thumbHtml(game, extraClass = "") {
   return `<div class="thumb ${extraClass}" data-genre="${escapeHtml(game.genres[0])}" aria-hidden="true">${inner}</div>`;
 }
 
+// 객체 필드(players, playTime, score)는 한 단계 깊이까지 합치고, 나머지는 통째로 바꿉니다.
+function mergeShallow(base, patch) {
+  const out = { ...base };
+  for (const [k, v] of Object.entries(patch || {})) {
+    const isObj = (x) => x && typeof x === "object" && !Array.isArray(x);
+    out[k] = isObj(v) && isObj(base[k]) ? { ...base[k], ...v } : v;
+  }
+  return out;
+}
+
+// Supabase game_updates 행을 JSON 데이터 위에 덮어씁니다.
+// 합친 결과가 검사 규칙(rules.js)을 통과하지 못하면 그 행은 무시하고 JSON 값을 그대로 씁니다.
+export function applyGameUpdates(baseGames, baseReleases, updates, ctx) {
+  const games = new Map(baseGames.map((g) => [g.id, g]));
+  const releases = new Map(baseReleases.map((r) => [r.gameId, r]));
+  for (const u of updates || []) {
+    const game = mergeShallow(games.get(u.game_id) || {}, u.game);
+    game.id = u.game_id;
+    delete game.image; // 썸네일은 주제 픽셀 아이콘만 씁니다
+    const release = mergeShallow(releases.get(u.game_id) || {}, u.release);
+    release.gameId = u.game_id;
+    const errs = [...checkGame(game, ctx), ...checkRelease(release)];
+    if (errs.length) { console.warn(`game_updates[${u.game_id}] 무시:`, errs); continue; }
+    game.liveUpdatedAt = u.updated_at;
+    games.set(u.game_id, game);
+    releases.set(u.game_id, release);
+  }
+  return { games: [...games.values()], releases: [...releases.values()] };
+}
+
 let cache;
 export async function loadAll() {
   if (cache) return cache;
   const get = (f) => fetch(`/data/${f}`).then((r) => { if (!r.ok) throw new Error(f); return r.json(); });
-  const [games, releases, summaries, genres, runLog] = await Promise.all([
+  const [baseGames, baseReleases, summaries, genres, runLog, updates] = await Promise.all([
     get("games.json"), get("releases.json"), get("summaries.json"), get("genres.json"), get("run-log.json"),
+    fetchGameUpdates().catch(() => []),
   ]);
+  const { games, releases } = applyGameUpdates(baseGames, baseReleases, updates, {
+    genreIds: new Set(genres.map((g) => g.id)), themes: null, fileExists: null,
+  });
   const releaseById = Object.fromEntries(releases.map((r) => [r.gameId, r]));
   const summaryById = Object.fromEntries(summaries.map((s) => [s.gameId, s]));
   const genreLabel = Object.fromEntries(genres.map((g) => [g.id, g.label]));
