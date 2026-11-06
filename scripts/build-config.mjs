@@ -1,6 +1,6 @@
 // Vercel 빌드 때 Supabase 공개 설정(URL, 공개 키)을 public/config.js 로 써 넣습니다.
 // 공개 키(anon / publishable)는 브라우저에 공개되는 키이며, 데이터 보호는 Supabase RLS 정책이 담당합니다.
-// 직접 등록한 SUPABASE_URL·SUPABASE_ANON_KEY 를 먼저 쓰고, 없으면 Supabase–Vercel 통합이 만든 이름을 씁니다.
+// Supabase–Vercel 통합이 넣은 publishable 키를 먼저 쓰고, 없으면 예전 anon 키를 씁니다.
 // service_role / secret 키는 절대 읽지 않습니다.
 import { writeFileSync, existsSync, readFileSync } from "node:fs";
 
@@ -14,8 +14,8 @@ const pick = (...names) => names.map((n) => process.env[n]).find(Boolean) || "";
 const cfg = {
   supabaseUrl: pick("SUPABASE_URL", "NEXT_PUBLIC_SUPABASE_URL"),
   supabaseAnonKey: pick(
-    "SUPABASE_ANON_KEY", "SUPABASE_PUBLISHABLE_KEY",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY", "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+    "SUPABASE_PUBLISHABLE_KEY", "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+    "SUPABASE_ANON_KEY", "NEXT_PUBLIC_SUPABASE_ANON_KEY",
   ),
 };
 // 공개 키 자리에 secret 키가 잘못 들어오면 빌드를 멈춥니다.
