@@ -33,13 +33,7 @@
    "reviewTrend": 8,
    "longevity": 9
   },
-  "theme": "money",
-  "image": {
-   "file": "/images/games/splendor.jpg",
-   "credit": "JIP / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Splendor_in_Tapiola.jpg"
-  }
+  "theme": "money"
  },
  {
   "id": "catan",
@@ -76,13 +70,7 @@
    "reviewTrend": 7,
    "longevity": 10
   },
-  "theme": "nature",
-  "image": {
-   "file": "/images/games/catan.jpg",
-   "credit": "Yonghokim / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_game_of_Settlers_of_Catan.jpg"
-  }
+  "theme": "nature"
  },
  {
   "id": "ticket-to-ride",
@@ -118,13 +106,7 @@
    "reviewTrend": 8,
    "longevity": 10
   },
-  "theme": "train",
-  "image": {
-   "file": "/images/games/ticket-to-ride.jpg",
-   "credit": "JIP / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ticket_to_Ride_at_restaurant_Kaisla.jpg"
-  }
+  "theme": "train"
  },
  {
   "id": "azul",
@@ -196,13 +178,7 @@
    "reviewTrend": 8.5,
    "longevity": 9
   },
-  "theme": "bird",
-  "image": {
-   "file": "/images/games/wingspan.jpg",
-   "credit": "Pongrácz Zsolt / 위키미디어 공용",
-   "license": "CC BY-SA 3.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cards_in_Wingspan_board_game.jpg"
-  }
+  "theme": "bird"
  },
  {
   "id": "terraforming-mars",
@@ -231,13 +207,7 @@
    "reviewTrend": 9,
    "longevity": 9
   },
-  "theme": "space",
-  "image": {
-   "file": "/images/games/terraforming-mars.jpg",
-   "credit": "Mshuang2 / 위키미디어 공용",
-   "license": "CC0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terraforming_Mars.jpg"
-  }
+  "theme": "space"
  },
  {
   "id": "codenames",
@@ -273,13 +243,7 @@
    "reviewTrend": 8,
    "longevity": 9
   },
-  "theme": "mystery",
-  "image": {
-   "file": "/images/games/codenames.jpg",
-   "credit": "JIP / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Codenames_with_key_card.jpg"
-  }
+  "theme": "mystery"
  },
  {
   "id": "dixit",
@@ -345,13 +309,7 @@
    "reviewTrend": 6.5,
    "longevity": 10
   },
-  "theme": "food",
-  "image": {
-   "file": "/images/games/halli-galli.jpg",
-   "credit": "Druyts.t / 위키미디어 공용",
-   "license": "CC BY-SA 3.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halli_Galli.JPG"
-  }
+  "theme": "food"
  },
  {
   "id": "agricola",
@@ -488,13 +446,7 @@
    "reviewTrend": 8.5,
    "longevity": 9
   },
-  "theme": "city",
-  "image": {
-   "file": "/images/games/7-wonders-duel.jpg",
-   "credit": "Bourbak / 위키미디어 공용",
-   "license": "CC0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:7_Wonders_Duel_avec_extension_Panth%C3%A9on.jpg"
-  }
+  "theme": "city"
  },
  {
   "id": "the-mind",
@@ -560,13 +512,7 @@
    "reviewTrend": 8,
    "longevity": 9
   },
-  "theme": "mystery",
-  "image": {
-   "file": "/images/games/avalon.jpg",
-   "credit": "El Pantera / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playing_board_game_-_Play_1521_1745100006682.jpg"
-  }
+  "theme": "mystery"
  },
  {
   "id": "brass-birmingham",
@@ -595,13 +541,7 @@
    "reviewTrend": 9.5,
    "longevity": 8
   },
-  "theme": "city",
-  "image": {
-   "file": "/images/games/brass-birmingham.jpg",
-   "credit": "El Pantera / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playing_board_game_-_Play_1048_1724352635173.jpg"
-  }
+  "theme": "city"
  },
  {
   "id": "kingdomino",
@@ -637,13 +577,7 @@
    "reviewTrend": 7.5,
    "longevity": 8
   },
-  "theme": "castle",
-  "image": {
-   "file": "/images/games/kingdomino.jpg",
-   "credit": "El Pantera / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingdomino_-_0fb5d6f8-0cb9-4156-8d20-0cdf5899ca36~1.jpg"
-  }
+  "theme": "castle"
  },
  {
   "id": "dominion",
@@ -709,13 +643,7 @@
    "reviewTrend": 7,
    "longevity": 9
   },
-  "theme": "cards",
-  "image": {
-   "file": "/images/games/love-letter.jpg",
-   "credit": "Urci dream / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Partida_Love_Letter.jpg"
-  }
+  "theme": "cards"
  },
  {
   "id": "king-of-tokyo",
@@ -776,13 +704,7 @@
    "reviewTrend": 7.5,
    "longevity": 9
   },
-  "theme": "sword",
-  "image": {
-   "file": "/images/games/small-world.jpg",
-   "credit": "Muovailuvaha / 위키미디어 공용",
-   "license": "CC BY-SA 3.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Small_World_game_being_played.jpg"
-  }
+  "theme": "sword"
  },
  {
   "id": "medical-mysteries-nyc-er",
@@ -874,13 +796,7 @@
    "reviewTrend": 8.6,
    "longevity": 9
   },
-  "theme": "castle",
-  "image": {
-   "file": "/images/games/castles-of-burgundy.jpg",
-   "credit": "Mshuang2 / 위키미디어 공용",
-   "license": "CC0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castles_of_Burgundy_(Board_Game).jpg"
-  }
+  "theme": "castle"
  },
  {
   "id": "las-vegas",
@@ -940,13 +856,7 @@
    "reviewTrend": 9.2,
    "longevity": 8
   },
-  "theme": "animal",
-  "image": {
-   "file": "/images/games/ark-nova.jpg",
-   "credit": "El Pantera / 위키미디어 공용",
-   "license": "CC BY-SA 4.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ark_Nova_-_4c0b85ad-9d86-4491-85bc-f88def354ec3~1.jpg"
-  }
+  "theme": "animal"
  },
  {
   "id": "lotr-duel-for-middle-earth",
@@ -1586,13 +1496,7 @@
    "reviewTrend": 8,
    "longevity": 9.5
   },
-  "theme": "cards",
-  "image": {
-   "file": "/images/games/6-nimmt.jpg",
-   "credit": "Muu-karhu / 위키미디어 공용",
-   "license": "CC BY-SA 3.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:6_nimmt!.jpg"
-  }
+  "theme": "cards"
  },
  {
   "id": "le-havre",
@@ -2259,13 +2163,7 @@
    "reviewTrend": 7.6,
    "longevity": 9
   },
-  "theme": "puzzle",
-  "image": {
-   "file": "/images/games/blokus.jpg",
-   "credit": "JIP / 위키미디어 공용",
-   "license": "CC BY-SA 3.0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blokus.jpg"
-  }
+  "theme": "puzzle"
  },
  {
   "id": "ticket-to-ride-paris",
@@ -3044,13 +2942,7 @@
    "reviewTrend": 7.4,
    "longevity": 9.5
   },
-  "theme": "detective",
-  "image": {
-   "file": "/images/games/scotland-yard.jpg",
-   "credit": "Didierfm2 / 위키미디어 공용",
-   "license": "CC0",
-   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeu_Scotland_Yard.jpg"
-  }
+  "theme": "detective"
  },
  {
   "id": "magic-labyrinth",
