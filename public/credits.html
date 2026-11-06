@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>사진 출처 · 오늘의 보드게임은?!</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="/">오늘의 보드게임은?!</a>
+    </div>
+  </header>
+
+  <main class="wrap detail">
+    <a href="/" class="back">← 목록으로</a>
+    <section class="panel">
+      <h1>사진 출처</h1>
+      <p class="muted">게임 사진은 위키미디어 공용의 자유 라이선스 사진입니다. 공식 박스 이미지가 아니며, 작게 잘라서 보여드립니다. 사진이 없는 게임은 사이트에서 직접 그린 주제 그림을 씁니다.</p>
+      <ul class="refs" id="credit-list"></ul>
+    </section>
+  </main>
+
+  <script type="module">
+    import { loadAll, escapeHtml as e } from "/assets/data.js";
+    const { games } = await loadAll();
+    const rows = games.filter((g) => g.image).sort((a, b) => a.titleKo.localeCompare(b.titleKo, "ko"));
+    document.getElementById("credit-list").innerHTML = rows.map((g) =>
+      `<li>${e(g.titleKo)}: ${e(g.image.credit)} · <a href="${e(g.image.sourceUrl)}" target="_blank" rel="noopener">${e(g.image.license)}</a></li>`).join("")
+      || `<li class="muted">아직 사용 중인 사진이 없어요.</li>`;
+  </script>
+</body>
+</html>
