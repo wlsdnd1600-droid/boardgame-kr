@@ -4,8 +4,8 @@
 데이터는 Claude 예약 작업이 매주 자동으로 갱신합니다. 자세한 기획은 기획서 문서를 참고하세요.
 
 > 현재 상태: **배포됨** — https://boardgame-kr.vercel.app (Vercel, main 푸시 시 자동 배포)
-> Supabase 프로젝트(서울)에 마이그레이션은 적용했지만, Vercel 에 `SUPABASE_ANON_KEY` 를 아직 넣지 않아
-> 회원 리뷰·제보·실시간 게임 수정은 "연동 전" 상태입니다. 키를 넣고 재배포하면 켜집니다.
+> Supabase(서울)와 연동되어 회원 리뷰·제보·회원 평점 정렬·실시간 게임 수정(`game_updates`)이 작동합니다.
+> 키는 Supabase–Vercel 통합이 Vercel 환경변수에 넣으며, 브라우저에는 publishable 키만 들어갑니다(`scripts/build-config.mjs`).
 > `public/data` 는 118종이며, 111종은 코리아보드게임즈 공식 상품 페이지로, 7종은 운영자 확인(`verifiedBy: "operator"`, 출처 URL 없음)으로 발매를 확인했습니다.
 
 ## 구조
@@ -60,7 +60,8 @@ npm run validate   # 데이터 검사
 
 ### 3. Vercel
 1. Add New → Project 에서 GitHub 저장소를 가져옵니다. Framework Preset 은 **Other**.
-2. Environment Variables 에 `SUPABASE_URL`, `SUPABASE_ANON_KEY` 를 등록합니다.
+2. Supabase 대시보드 → Settings → Integrations → Vercel 에서 이 프로젝트를 연결하면 환경변수가 자동으로 들어갑니다.
+   (직접 넣을 때는 `SUPABASE_URL` 과 publishable/anon 키를 `SUPABASE_ANON_KEY` 로 등록. 통합이 함께 넣는 service_role·secret·Postgres 값은 빌드에서 읽지 않습니다.)
 3. Deploy. 빌드 설정은 `vercel.json` 에 들어 있습니다 (빌드 = 설정 생성 + 데이터 검사, 출력 = `public`).
 4. 이후 main 브랜치에 푸시될 때마다 자동 배포됩니다.
 
