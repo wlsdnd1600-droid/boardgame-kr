@@ -1,23 +1,3712 @@
 [
-  {"id":"splendor","titleKo":"스플렌더","titleOriginal":"Splendor","year":2014,"players":{"min":2,"max":4,"best":[3]},"playTime":{"min":30,"max":30},"age":10,"weight":1.8,"weightBasis":"규칙 설명 10분 내외, 턴마다 보석 가져오기·카드 사기 중 하나를 고르는 단순한 구조","genres":["strategy","family"],"awards":[{"name":"올해의 게임(Spiel des Jahres) 후보","year":2014,"level":"nominee"}],"score":{"reviewTrend":8.0,"longevity":9.0}},
-  {"id":"catan","titleKo":"카탄","titleOriginal":"Catan","year":1995,"players":{"min":3,"max":4,"best":[4]},"playTime":{"min":60,"max":120},"age":10,"weight":2.3,"weightBasis":"자원 생산·거래·건설의 세 단계, 주사위 운과 협상이 함께 작용","genres":["strategy","trade","family"],"awards":[{"name":"올해의 게임(Spiel des Jahres)","year":1995,"level":"winner"}],"score":{"reviewTrend":7.0,"longevity":10.0}},
-  {"id":"ticket-to-ride","titleKo":"티켓 투 라이드","titleOriginal":"Ticket to Ride","year":2004,"players":{"min":2,"max":5,"best":[4]},"playTime":{"min":30,"max":60},"age":8,"weight":1.8,"weightBasis":"턴마다 카드 뽑기·노선 깔기·목적지 받기 중 하나, 규칙 설명 10분","genres":["family","strategy"],"awards":[{"name":"올해의 게임(Spiel des Jahres)","year":2004,"level":"winner"}],"score":{"reviewTrend":8.0,"longevity":10.0}},
-  {"id":"azul","titleKo":"아줄","titleOriginal":"Azul","year":2017,"players":{"min":2,"max":4,"best":[2]},"playTime":{"min":30,"max":45},"age":8,"weight":1.8,"weightBasis":"타일 가져오기 한 가지 행동, 점수 계산이 조금 있지만 규칙은 짧음","genres":["tile","family","strategy"],"awards":[{"name":"올해의 게임(Spiel des Jahres)","year":2018,"level":"winner"}],"score":{"reviewTrend":8.5,"longevity":9.0}},
-  {"id":"wingspan","titleKo":"윙스팬","titleOriginal":"Wingspan","year":2019,"players":{"min":1,"max":5,"best":[3]},"playTime":{"min":40,"max":70},"age":10,"weight":2.4,"weightBasis":"행동 4가지에 카드 효과 연쇄(엔진 빌딩)가 더해짐, 첫 판에 카드 텍스트 읽는 부담","genres":["strategy"],"awards":[{"name":"전문가 게임상(Kennerspiel des Jahres)","year":2019,"level":"winner"}],"score":{"reviewTrend":8.5,"longevity":9.0}},
-  {"id":"terraforming-mars","titleKo":"테라포밍 마스","titleOriginal":"Terraforming Mars","year":2016,"players":{"min":1,"max":5,"best":[3]},"playTime":{"min":90,"max":150},"age":12,"weight":3.3,"weightBasis":"카드 200장 이상, 자원 6종과 생산 트랙, 2시간 내외의 장기 계획","genres":["strategy"],"awards":[],"score":{"reviewTrend":9.0,"longevity":9.0}},
-  {"id":"codenames","titleKo":"코드네임","titleOriginal":"Codenames","year":2015,"players":{"min":2,"max":8,"best":[6]},"playTime":{"min":15,"max":15},"age":14,"weight":1.3,"weightBasis":"단어 힌트 하나로 팀원을 맞히게 하는 규칙, 설명 5분","genres":["party","deduction"],"awards":[{"name":"올해의 게임(Spiel des Jahres)","year":2016,"level":"winner"}],"score":{"reviewTrend":8.0,"longevity":9.0}},
-  {"id":"dixit","titleKo":"딕싯","titleOriginal":"Dixit","year":2008,"players":{"min":3,"max":6,"best":[6]},"playTime":{"min":30,"max":30},"age":8,"weight":1.2,"weightBasis":"그림 카드에 어울리는 말을 하고 맞히는 규칙, 설명 5분","genres":["party","family"],"awards":[{"name":"올해의 게임(Spiel des Jahres)","year":2010,"level":"winner"}],"score":{"reviewTrend":7.5,"longevity":9.0}},
-  {"id":"halli-galli","titleKo":"할리갈리","titleOriginal":"Halli Galli","year":1990,"players":{"min":2,"max":6,"best":[4]},"playTime":{"min":15,"max":15},"age":6,"weight":1.0,"weightBasis":"같은 과일이 5개면 종을 치는 규칙 하나, 반응 속도 게임","genres":["party","family"],"awards":[],"score":{"reviewTrend":6.5,"longevity":10.0}},
-  {"id":"agricola","titleKo":"아그리콜라","titleOriginal":"Agricola","year":2007,"players":{"min":1,"max":4,"best":[3]},"playTime":{"min":30,"max":150},"age":12,"weight":3.6,"weightBasis":"일꾼 놓기에 식량 공급 압박, 직업·보조설비 카드 조합, 첫 판 학습 부담 큼","genres":["strategy","worker"],"awards":[{"name":"올해의 게임 특별상(복잡한 게임)","year":2008,"level":"special"}],"score":{"reviewTrend":8.5,"longevity":9.0}},
-  {"id":"pandemic","titleKo":"팬데믹","titleOriginal":"Pandemic","year":2008,"players":{"min":2,"max":4,"best":[4]},"playTime":{"min":45,"max":45},"age":8,"weight":2.4,"weightBasis":"행동 4개와 역할별 능력, 전염 카드 규칙을 함께 관리하는 협력 게임","genres":["coop"],"awards":[{"name":"올해의 게임(Spiel des Jahres) 후보","year":2009,"level":"nominee"}],"score":{"reviewTrend":8.0,"longevity":10.0}},
-  {"id":"carcassonne","titleKo":"카르카손","titleOriginal":"Carcassonne","year":2000,"players":{"min":2,"max":5,"best":[2]},"playTime":{"min":35,"max":45},"age":7,"weight":1.9,"weightBasis":"타일 한 장 놓고 일꾼(미플) 한 개 놓기, 점수 규칙만 조금 익히면 됨","genres":["tile","family"],"awards":[{"name":"올해의 게임(Spiel des Jahres)","year":2001,"level":"winner"}],"score":{"reviewTrend":7.5,"longevity":10.0}},
-  {"id":"7-wonders-duel","titleKo":"세븐 원더스 듀얼","titleOriginal":"7 Wonders Duel","year":2015,"players":{"min":2,"max":2,"best":[2]},"playTime":{"min":30,"max":30},"age":10,"weight":2.2,"weightBasis":"카드 드래프트에 승리 조건 3가지(과학·군사·점수), 아이콘 학습 필요","genres":["strategy","two"],"awards":[],"score":{"reviewTrend":8.5,"longevity":9.0}},
-  {"id":"the-mind","titleKo":"더 마인드","titleOriginal":"The Mind","year":2018,"players":{"min":2,"max":4,"best":[4]},"playTime":{"min":20,"max":20},"age":8,"weight":1.1,"weightBasis":"말없이 숫자 카드를 오름차순으로 내는 규칙 하나","genres":["coop","party"],"awards":[{"name":"올해의 게임(Spiel des Jahres) 후보","year":2018,"level":"nominee"}],"score":{"reviewTrend":7.0,"longevity":7.0}},
-  {"id":"avalon","titleKo":"레지스탕스: 아발론","titleOriginal":"The Resistance: Avalon","year":2012,"players":{"min":5,"max":10,"best":[7]},"playTime":{"min":30,"max":30},"age":13,"weight":1.8,"weightBasis":"원정대 구성·투표 규칙은 짧지만 정체 숨기기와 토론이 핵심","genres":["deduction","party"],"awards":[],"score":{"reviewTrend":8.0,"longevity":9.0}},
-  {"id":"brass-birmingham","titleKo":"브라스: 버밍엄","titleOriginal":"Brass: Birmingham","year":2018,"players":{"min":2,"max":4,"best":[4]},"playTime":{"min":60,"max":120},"age":14,"weight":3.9,"weightBasis":"두 시대에 걸친 네트워크·산업 건설, 석탄·철·맥주 연결 규칙과 대출 관리","genres":["strategy"],"awards":[],"score":{"reviewTrend":9.5,"longevity":8.0}},
-  {"id":"kingdomino","titleKo":"킹도미노","titleOriginal":"Kingdomino","year":2016,"players":{"min":2,"max":4,"best":[2]},"playTime":{"min":15,"max":15},"age":8,"weight":1.2,"weightBasis":"도미노 타일 고르고 이어 붙이기, 설명 5분","genres":["tile","family"],"awards":[{"name":"올해의 게임(Spiel des Jahres)","year":2017,"level":"winner"}],"score":{"reviewTrend":7.5,"longevity":8.0}},
-  {"id":"dominion","titleKo":"도미니언","titleOriginal":"Dominion","year":2008,"players":{"min":2,"max":4,"best":[3]},"playTime":{"min":30,"max":30},"age":13,"weight":2.4,"weightBasis":"덱 빌딩 장르의 원조, 행동·구매 단계와 카드 효과 조합","genres":["deck","strategy"],"awards":[{"name":"올해의 게임(Spiel des Jahres)","year":2009,"level":"winner"}],"score":{"reviewTrend":8.0,"longevity":9.0}},
-  {"id":"love-letter","titleKo":"러브레터","titleOriginal":"Love Letter","year":2012,"players":{"min":2,"max":6,"best":[4]},"playTime":{"min":20,"max":20},"age":10,"weight":1.2,"weightBasis":"카드 2장 중 1장 내기, 카드 종류 10개 미만","genres":["deduction","party"],"awards":[],"score":{"reviewTrend":7.0,"longevity":9.0}},
-  {"id":"king-of-tokyo","titleKo":"킹 오브 도쿄","titleOriginal":"King of Tokyo","year":2011,"players":{"min":2,"max":6,"best":[5]},"playTime":{"min":30,"max":30},"age":8,"weight":1.5,"weightBasis":"주사위 굴리고 다시 굴리기(최대 3번), 효과 카드 구매","genres":["race","party","family"],"awards":[],"score":{"reviewTrend":7.0,"longevity":8.0}},
-  {"id":"small-world","titleKo":"스몰 월드","titleOriginal":"Small World","year":2009,"players":{"min":2,"max":5,"best":[4]},"playTime":{"min":40,"max":80},"age":8,"weight":2.4,"weightBasis":"종족·능력 조합으로 지역 점령, 쇠퇴 타이밍 판단이 핵심","genres":["area","strategy"],"awards":[],"score":{"reviewTrend":7.5,"longevity":9.0}}
+ {
+  "id": "splendor",
+  "titleKo": "스플렌더",
+  "titleOriginal": "Splendor",
+  "year": 2014,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 10,
+  "weight": 1.8,
+  "weightBasis": "규칙 설명 10분 내외, 턴마다 보석 가져오기·카드 사기 중 하나를 고르는 단순한 구조",
+  "genres": [
+   "strategy",
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres) 후보",
+    "year": 2014,
+    "level": "nominee"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 9
+  },
+  "theme": "money"
+ },
+ {
+  "id": "catan",
+  "titleKo": "카탄",
+  "titleOriginal": "Catan",
+  "year": 1995,
+  "players": {
+   "min": 3,
+   "max": 4,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 75,
+   "max": 75
+  },
+  "age": 10,
+  "weight": 2.3,
+  "weightBasis": "자원 생산·거래·건설의 세 단계, 주사위 운과 협상이 함께 작용",
+  "genres": [
+   "strategy",
+   "trade",
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 1995,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7,
+   "longevity": 10
+  },
+  "theme": "nature"
+ },
+ {
+  "id": "ticket-to-ride",
+  "titleKo": "티켓 투 라이드",
+  "titleOriginal": "Ticket to Ride",
+  "year": 2004,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 60
+  },
+  "age": 8,
+  "weight": 1.8,
+  "weightBasis": "턴마다 카드 뽑기·노선 깔기·목적지 받기 중 하나, 규칙 설명 10분",
+  "genres": [
+   "family",
+   "strategy"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2004,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 10
+  },
+  "theme": "train"
+ },
+ {
+  "id": "azul",
+  "titleKo": "아줄",
+  "titleOriginal": "Azul",
+  "year": 2017,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 45
+  },
+  "age": 8,
+  "weight": 1.8,
+  "weightBasis": "타일 가져오기 한 가지 행동, 점수 계산이 조금 있지만 규칙은 짧음",
+  "genres": [
+   "tile",
+   "family",
+   "strategy"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2018,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8.5,
+   "longevity": 9
+  },
+  "theme": "art"
+ },
+ {
+  "id": "wingspan",
+  "titleKo": "윙스팬",
+  "titleOriginal": "Wingspan",
+  "year": 2019,
+  "players": {
+   "min": 1,
+   "max": 5,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 40,
+   "max": 70
+  },
+  "age": 14,
+  "weight": 2.4,
+  "weightBasis": "행동 4가지에 카드 효과 연쇄(엔진 빌딩)가 더해짐, 첫 판에 카드 텍스트 읽는 부담",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [
+   {
+    "name": "전문가 게임상(Kennerspiel des Jahres)",
+    "year": 2019,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8.5,
+   "longevity": 9
+  },
+  "theme": "bird"
+ },
+ {
+  "id": "terraforming-mars",
+  "titleKo": "테라포밍 마스",
+  "titleOriginal": "Terraforming Mars",
+  "year": 2016,
+  "players": {
+   "min": 1,
+   "max": 5,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 90,
+   "max": 120
+  },
+  "age": 14,
+  "weight": 3.3,
+  "weightBasis": "카드 200장 이상, 자원 6종과 생산 트랙, 2시간 내외의 장기 계획",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 9,
+   "longevity": 9
+  },
+  "theme": "space"
+ },
+ {
+  "id": "codenames",
+  "titleKo": "코드네임",
+  "titleOriginal": "Codenames",
+  "year": 2015,
+  "players": {
+   "min": 2,
+   "max": 8,
+   "best": [
+    6
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 14,
+  "weight": 1.3,
+  "weightBasis": "단어 힌트 하나로 팀원을 맞히게 하는 규칙, 설명 5분",
+  "genres": [
+   "party",
+   "deduction"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2016,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 9
+  },
+  "theme": "mystery"
+ },
+ {
+  "id": "dixit",
+  "titleKo": "딕싯",
+  "titleOriginal": "Dixit",
+  "year": 2008,
+  "players": {
+   "min": 3,
+   "max": 8,
+   "best": [
+    6
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.2,
+  "weightBasis": "그림 카드에 어울리는 말을 하고 맞히는 규칙, 설명 5분",
+  "genres": [
+   "party",
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2010,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.5,
+   "longevity": 9
+  },
+  "theme": "art"
+ },
+ {
+  "id": "halli-galli",
+  "titleKo": "할리갈리",
+  "titleOriginal": "Halli Galli",
+  "year": 1990,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 6,
+  "weight": 1,
+  "weightBasis": "같은 과일이 5개면 종을 치는 규칙 하나, 반응 속도 게임",
+  "genres": [
+   "party",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 6.5,
+   "longevity": 10
+  },
+  "theme": "food"
+ },
+ {
+  "id": "agricola",
+  "titleKo": "아그리콜라",
+  "titleOriginal": "Agricola",
+  "year": 2007,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 120
+  },
+  "age": 14,
+  "weight": 3.6,
+  "weightBasis": "일꾼 놓기에 식량 공급 압박, 직업·보조설비 카드 조합, 첫 판 학습 부담 큼",
+  "genres": [
+   "strategy",
+   "worker"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임 특별상(복잡한 게임)",
+    "year": 2008,
+    "level": "special"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8.5,
+   "longevity": 9
+  },
+  "theme": "farm"
+ },
+ {
+  "id": "pandemic",
+  "titleKo": "팬데믹",
+  "titleOriginal": "Pandemic",
+  "year": 2008,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 45
+  },
+  "age": 8,
+  "weight": 2.4,
+  "weightBasis": "행동 4개와 역할별 능력, 전염 카드 규칙을 함께 관리하는 협력 게임",
+  "genres": [
+   "coop"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres) 후보",
+    "year": 2009,
+    "level": "nominee"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 10
+  },
+  "theme": "medical"
+ },
+ {
+  "id": "carcassonne",
+  "titleKo": "카르카손",
+  "titleOriginal": "Carcassonne",
+  "year": 2000,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 35,
+   "max": 35
+  },
+  "age": 7,
+  "weight": 1.9,
+  "weightBasis": "타일 한 장 놓고 일꾼(미플) 한 개 놓기, 점수 규칙만 조금 익히면 됨",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2001,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.5,
+   "longevity": 10
+  },
+  "theme": "castle"
+ },
+ {
+  "id": "7-wonders-duel",
+  "titleKo": "세븐 원더스 듀얼",
+  "titleOriginal": "7 Wonders Duel",
+  "year": 2015,
+  "players": {
+   "min": 2,
+   "max": 2,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 10,
+  "weight": 2.2,
+  "weightBasis": "카드 드래프트에 승리 조건 3가지(과학·군사·점수), 아이콘 학습 필요",
+  "genres": [
+   "strategy",
+   "two"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.5,
+   "longevity": 9
+  },
+  "theme": "city"
+ },
+ {
+  "id": "the-mind",
+  "titleKo": "더 마인드",
+  "titleOriginal": "The Mind",
+  "year": 2018,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 8,
+  "weight": 1.1,
+  "weightBasis": "말없이 숫자 카드를 오름차순으로 내는 규칙 하나",
+  "genres": [
+   "coop",
+   "party"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres) 후보",
+    "year": 2018,
+    "level": "nominee"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7,
+   "longevity": 7
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "avalon",
+  "titleKo": "레지스탕스: 아발론",
+  "titleOriginal": "The Resistance: Avalon",
+  "year": 2012,
+  "players": {
+   "min": 5,
+   "max": 10,
+   "best": [
+    7
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 12,
+  "weight": 1.8,
+  "weightBasis": "원정대 구성·투표 규칙은 짧지만 정체 숨기기와 토론이 핵심",
+  "genres": [
+   "deduction",
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 9
+  },
+  "theme": "mystery"
+ },
+ {
+  "id": "brass-birmingham",
+  "titleKo": "브라스: 버밍엄",
+  "titleOriginal": "Brass: Birmingham",
+  "year": 2018,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 120
+  },
+  "age": 14,
+  "weight": 3.9,
+  "weightBasis": "두 시대에 걸친 네트워크·산업 건설, 석탄·철·맥주 연결 규칙과 대출 관리",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 9.5,
+   "longevity": 8
+  },
+  "theme": "city"
+ },
+ {
+  "id": "kingdomino",
+  "titleKo": "킹도미노",
+  "titleOriginal": "Kingdomino",
+  "year": 2016,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 8,
+  "weight": 1.2,
+  "weightBasis": "도미노 타일 고르고 이어 붙이기, 설명 5분",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2017,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.5,
+   "longevity": 8
+  },
+  "theme": "castle"
+ },
+ {
+  "id": "dominion",
+  "titleKo": "도미니언",
+  "titleOriginal": "Dominion",
+  "year": 2008,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 2.4,
+  "weightBasis": "덱 빌딩 장르의 원조, 행동·구매 단계와 카드 효과 조합",
+  "genres": [
+   "deck",
+   "strategy"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2009,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 9
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "love-letter",
+  "titleKo": "러브레터",
+  "titleOriginal": "Love Letter",
+  "year": 2012,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 10,
+   "max": 10
+  },
+  "age": 7,
+  "weight": 1.2,
+  "weightBasis": "카드 2장 중 1장 내기, 카드 종류 10개 미만",
+  "genres": [
+   "deduction",
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7,
+   "longevity": 9
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "king-of-tokyo",
+  "titleKo": "킹 오브 도쿄",
+  "titleOriginal": "King of Tokyo",
+  "year": 2011,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    5
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.5,
+  "weightBasis": "주사위 굴리고 다시 굴리기(최대 3번), 효과 카드 구매",
+  "genres": [
+   "race",
+   "party",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7,
+   "longevity": 8
+  },
+  "theme": "monster"
+ },
+ {
+  "id": "small-world",
+  "titleKo": "스몰 월드",
+  "titleOriginal": "Small World",
+  "year": 2009,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 40,
+   "max": 80
+  },
+  "age": 8,
+  "weight": 2.4,
+  "weightBasis": "종족·능력 조합으로 지역 점령, 쇠퇴 타이밍 판단이 핵심",
+  "genres": [
+   "area",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.5,
+   "longevity": 9
+  },
+  "theme": "sword"
+ },
+ {
+  "id": "medical-mysteries-nyc-er",
+  "titleKo": "메디컬 미스터리: 뉴욕 응급실",
+  "titleOriginal": "Medical Mysteries: NYC Emergency Room",
+  "year": 2021,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 60
+  },
+  "age": 14,
+  "weight": 2,
+  "weightBasis": "환자 기록을 읽고 함께 진단하는 구조로, 규칙보다 추론 비중이 큼",
+  "genres": [
+   "deduction",
+   "coop"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 5
+  },
+  "theme": "medical"
+ },
+ {
+  "id": "harmonies",
+  "titleKo": "하모니즈",
+  "titleOriginal": "Harmonies",
+  "year": 2024,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 10,
+  "weight": 1.9,
+  "weightBasis": "토큰으로 지형을 쌓고 동물 카드 조건을 맞추는 단순한 턴 구조",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.6,
+   "longevity": 6.5
+  },
+  "theme": "nature"
+ },
+ {
+  "id": "castles-of-burgundy",
+  "titleKo": "버건디의 성",
+  "titleOriginal": "The Castles of Burgundy",
+  "year": 2011,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 70,
+   "max": 120
+  },
+  "age": 12,
+  "weight": 3,
+  "weightBasis": "주사위 값으로 행동을 고르고 타일 효과가 연쇄되는 중간 무게 전략",
+  "genres": [
+   "strategy",
+   "tile"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.6,
+   "longevity": 9
+  },
+  "theme": "castle"
+ },
+ {
+  "id": "las-vegas",
+  "titleKo": "라스베가스",
+  "titleOriginal": "Las Vegas",
+  "year": 2012,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.2,
+  "weightBasis": "주사위를 굴려 카지노에 놓는 것이 규칙의 전부",
+  "genres": [
+   "family",
+   "race"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.6,
+   "longevity": 8
+  },
+  "theme": "dice"
+ },
+ {
+  "id": "ark-nova",
+  "titleKo": "아크 노바",
+  "titleOriginal": "Ark Nova",
+  "year": 2021,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 90,
+   "max": 150
+  },
+  "age": 14,
+  "weight": 3.8,
+  "weightBasis": "카드 수백 장과 행동 강화 시스템이 얽혀 장기 계획이 필요",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 9.2,
+   "longevity": 8
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "lotr-duel-for-middle-earth",
+  "titleKo": "반지의 제왕: 가운데땅에서의 대결",
+  "titleOriginal": "The Lord of the Rings: Duel for Middle-earth",
+  "year": 2024,
+  "players": {
+   "min": 2,
+   "max": 2,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 10,
+  "weight": 2.2,
+  "weightBasis": "드래프트 중심의 2인 대결로 승리 경로가 세 가지",
+  "genres": [
+   "two",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.4,
+   "longevity": 6
+  },
+  "theme": "sword"
+ },
+ {
+  "id": "puerto-rico-1897",
+  "titleKo": "푸에르토리코 1897",
+  "titleOriginal": "Puerto Rico 1897",
+  "year": 2022,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 90,
+   "max": 150
+  },
+  "age": 12,
+  "weight": 3.2,
+  "weightBasis": "역할 선택과 생산 연쇄를 읽어야 하는 고전 경제 게임",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.3,
+   "longevity": 8.5
+  },
+  "theme": "city"
+ },
+ {
+  "id": "saboteur",
+  "titleKo": "사보타지",
+  "titleOriginal": "Saboteur",
+  "year": 2004,
+  "players": {
+   "min": 3,
+   "max": 10,
+   "best": [
+    6,
+    7
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.3,
+  "weightBasis": "길 카드를 놓으며 숨은 방해자를 찾는 가벼운 정체 숨기기",
+  "genres": [
+   "party",
+   "deduction"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 8.5
+  },
+  "theme": "mystery"
+ },
+ {
+  "id": "clank-catacombs",
+  "titleKo": "클랭크 카타콤",
+  "titleOriginal": "Clank! Catacombs",
+  "year": 2022,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 90
+  },
+  "age": 14,
+  "weight": 2.4,
+  "weightBasis": "덱 빌딩에 타일 탐험을 더했지만 턴 진행은 직관적",
+  "genres": [
+   "deck",
+   "race"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.2,
+   "longevity": 6.5
+  },
+  "theme": "sword"
+ },
+ {
+  "id": "coffee-rush",
+  "titleKo": "커피 러시",
+  "titleOriginal": "Coffee Rush",
+  "year": 2023,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.6,
+  "weightBasis": "주문에 맞춰 재료를 모으는 동작이 반복되는 가벼운 구조",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.7,
+   "longevity": 6
+  },
+  "theme": "coffee"
+ },
+ {
+  "id": "thats-not-a-hat",
+  "titleKo": "모자가 아니잖아",
+  "titleOriginal": "That's Not a Hat",
+  "year": 2023,
+  "players": {
+   "min": 3,
+   "max": 8,
+   "best": [
+    5,
+    6
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 8,
+  "weight": 1.1,
+  "weightBasis": "카드를 넘기며 기억과 거짓말만 쓰는 필러 게임",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 6
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "great-dalmuti",
+  "titleKo": "달무티",
+  "titleOriginal": "The Great Dalmuti",
+  "year": 1995,
+  "players": {
+   "min": 4,
+   "max": 8,
+   "best": [
+    6,
+    7
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 8,
+  "weight": 1.3,
+  "weightBasis": "카드를 내고 계급이 바뀌는 단순한 손패 털기",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 8.5
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "arkham-horror-lcg",
+  "titleKo": "아컴호러 카드게임 개정판",
+  "titleOriginal": "Arkham Horror: The Card Game (Revised Edition)",
+  "year": 2021,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 180
+  },
+  "age": 14,
+  "weight": 3.4,
+  "weightBasis": "덱 구성과 시나리오 규칙, 예외 처리가 많은 협력 카드 게임",
+  "genres": [
+   "coop",
+   "deck"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.8,
+   "longevity": 8.5
+  },
+  "theme": "monster"
+ },
+ {
+  "id": "dune-imperium-uprising",
+  "titleKo": "듄 임페리움: 봉기",
+  "titleOriginal": "Dune: Imperium – Uprising",
+  "year": 2023,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 120
+  },
+  "age": 13,
+  "weight": 3.1,
+  "weightBasis": "일꾼 놓기와 덱 빌딩, 전투가 결합되어 있음",
+  "genres": [
+   "worker",
+   "deck",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 9,
+   "longevity": 7.5
+  },
+  "theme": "space"
+ },
+ {
+  "id": "wyrmspan",
+  "titleKo": "용스팬",
+  "titleOriginal": "Wyrmspan",
+  "year": 2024,
+  "players": {
+   "min": 1,
+   "max": 5,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 90,
+   "max": 90
+  },
+  "age": 14,
+  "weight": 2.6,
+  "weightBasis": "엔진 빌딩 구조에 동굴 탐험과 용 카드 조합이 더해짐",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.3,
+   "longevity": 6.5
+  },
+  "theme": "monster"
+ },
+ {
+  "id": "lost-cities",
+  "titleKo": "로스트 시티",
+  "titleOriginal": "Lost Cities",
+  "year": 1999,
+  "players": {
+   "min": 2,
+   "max": 2,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.5,
+  "weightBasis": "카드를 오름차순으로 내는 간단한 규칙에 위험 판단이 얹힌 구조",
+  "genres": [
+   "two",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 9
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "tichu",
+  "titleKo": "티츄: 블랙",
+  "titleOriginal": "Tichu",
+  "year": 2005,
+  "players": {
+   "min": 4,
+   "max": 4,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 60
+  },
+  "age": 8,
+  "weight": 2.3,
+  "weightBasis": "2대2 팀전 클라이밍 게임으로 특수 카드와 호출을 익혀야 함",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.4,
+   "longevity": 9
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "bohnanza",
+  "titleKo": "보난자",
+  "titleOriginal": "Bohnanza",
+  "year": 1997,
+  "players": {
+   "min": 3,
+   "max": 5,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 45
+  },
+  "age": 10,
+  "weight": 1.7,
+  "weightBasis": "손패 순서를 지키며 콩을 거래하는 협상 중심 구조",
+  "genres": [
+   "trade",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 9
+  },
+  "theme": "food"
+ },
+ {
+  "id": "bomb-busters",
+  "titleKo": "봄버스터즈",
+  "titleOriginal": "Bomb Busters",
+  "year": 2024,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 14,
+  "weight": 1.9,
+  "weightBasis": "협력해서 전선 번호를 추리하는 미션 진행형 구조",
+  "genres": [
+   "coop",
+   "deduction"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2025,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8.7,
+   "longevity": 6.5
+  },
+  "theme": "mystery"
+ },
+ {
+  "id": "hols-der-geier",
+  "titleKo": "독수리 눈치싸움",
+  "titleOriginal": "Hol's der Geier",
+  "year": 1988,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 8,
+  "weight": 1.1,
+  "weightBasis": "숫자 카드를 동시에 내는 눈치 싸움이 전부",
+  "genres": [
+   "party",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.2,
+   "longevity": 8.5
+  },
+  "theme": "bird"
+ },
+ {
+  "id": "acquire",
+  "titleKo": "어콰이어",
+  "titleOriginal": "Acquire",
+  "year": 1964,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 90,
+   "max": 90
+  },
+  "age": 12,
+  "weight": 2.5,
+  "weightBasis": "호텔 체인 합병과 주식 판단이 핵심인 고전 경제 게임",
+  "genres": [
+   "trade",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 9.5
+  },
+  "theme": "money"
+ },
+ {
+  "id": "search-for-planet-x",
+  "titleKo": "행성 X를 찾아서",
+  "titleOriginal": "The Search for Planet X",
+  "year": 2020,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 75
+  },
+  "age": 14,
+  "weight": 2.2,
+  "weightBasis": "앱 단서로 논리 추론을 이어가는 구조",
+  "genres": [
+   "deduction"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.2,
+   "longevity": 6.5
+  },
+  "theme": "space"
+ },
+ {
+  "id": "splendor-duel",
+  "titleKo": "스플렌더 대결",
+  "titleOriginal": "Splendor Duel",
+  "year": 2022,
+  "players": {
+   "min": 2,
+   "max": 2,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 10,
+  "weight": 2,
+  "weightBasis": "스플렌더 구조에 특수 능력과 승리 조건을 더한 2인 전용",
+  "genres": [
+   "two",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.4,
+   "longevity": 7.5
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "coda",
+  "titleKo": "다빈치 코드",
+  "titleOriginal": "Coda",
+  "year": 1984,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 7,
+  "weight": 1.2,
+  "weightBasis": "상대 숫자 타일을 맞히는 단순 추리",
+  "genres": [
+   "deduction",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.2,
+   "longevity": 8.5
+  },
+  "theme": "mystery"
+ },
+ {
+  "id": "at-the-gates-of-loyang",
+  "titleKo": "뤄양의 사람들",
+  "titleOriginal": "At the Gates of Loyang",
+  "year": 2009,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 120
+  },
+  "age": 14,
+  "weight": 3,
+  "weightBasis": "카드로 채소를 재배하고 판매하는 구조에 시간 관리가 더해짐",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 7
+  },
+  "theme": "food"
+ },
+ {
+  "id": "6-nimmt",
+  "titleKo": "젝스님트",
+  "titleOriginal": "6 nimmt!",
+  "year": 1994,
+  "players": {
+   "min": 2,
+   "max": 10,
+   "best": [
+    5,
+    6
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 8,
+  "weight": 1.2,
+  "weightBasis": "동시에 카드를 내고 줄 규칙만 지키면 되는 필러",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 9.5
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "le-havre",
+  "titleKo": "르 아브르 컴플리트 에디션",
+  "titleOriginal": "Le Havre",
+  "year": 2008,
+  "players": {
+   "min": 1,
+   "max": 5,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 100,
+   "max": 200
+  },
+  "age": 14,
+  "weight": 3.8,
+  "weightBasis": "자원 변환과 식량 지불이 맞물려 장시간 계획이 필요",
+  "genres": [
+   "worker",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.3,
+   "longevity": 8.5
+  },
+  "theme": "city"
+ },
+ {
+  "id": "uno",
+  "titleKo": "우노 카드게임",
+  "titleOriginal": "UNO",
+  "year": 1971,
+  "players": {
+   "min": 2,
+   "max": 10,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 7,
+  "weight": 1,
+  "weightBasis": "색이나 숫자를 맞추어 내는 기본 규칙",
+  "genres": [
+   "party",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 6.8,
+   "longevity": 9.5
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "marvel-champions",
+  "titleKo": "마블 챔피언스 카드게임",
+  "titleOriginal": "Marvel Champions: The Card Game",
+  "year": 2019,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 90
+  },
+  "age": 14,
+  "weight": 2.8,
+  "weightBasis": "영웅별 덱 구성과 악당 대응을 다루는 협력 카드 게임",
+  "genres": [
+   "coop",
+   "deck"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.5,
+   "longevity": 8.5
+  },
+  "theme": "sword"
+ },
+ {
+  "id": "quacks-of-quedlinburg",
+  "titleKo": "크베들린부르크의 돌팔이 약장수",
+  "titleOriginal": "The Quacks of Quedlinburg",
+  "year": 2018,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 45
+  },
+  "age": 14,
+  "weight": 1.9,
+  "weightBasis": "주머니에서 토큰을 꺼내며 멈출지를 판단하는 구조",
+  "genres": [
+   "family",
+   "race"
+  ],
+  "awards": [
+   {
+    "name": "전문가 게임상(Kennerspiel des Jahres)",
+    "year": 2018,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8.5,
+   "longevity": 8
+  },
+  "theme": "potion"
+ },
+ {
+  "id": "la-cucaracha",
+  "titleKo": "라쿠카라차",
+  "titleOriginal": "La Cucaracha",
+  "year": 2005,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 20
+  },
+  "age": 6,
+  "weight": 1.1,
+  "weightBasis": "주사위로 말을 이동시키는 어린이 게임",
+  "genres": [
+   "family",
+   "race"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7,
+   "longevity": 7
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "five-towers",
+  "titleKo": "다섯 개의 탑",
+  "titleOriginal": "Five Towers",
+  "year": 2023,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.5,
+  "weightBasis": "입찰과 세트 모으기로 탑을 쌓는 카드 게임",
+  "genres": [
+   "family",
+   "trade"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 5.5
+  },
+  "theme": "castle"
+ },
+ {
+  "id": "mansions-of-madness",
+  "titleKo": "광기의 저택",
+  "titleOriginal": "Mansions of Madness: Second Edition",
+  "year": 2016,
+  "players": {
+   "min": 1,
+   "max": 5,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 120,
+   "max": 180
+  },
+  "age": 14,
+  "weight": 2.7,
+  "weightBasis": "앱이 진행을 맡지만 조사와 전투 규칙이 다수",
+  "genres": [
+   "coop",
+   "deduction"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.4,
+   "longevity": 7.5
+  },
+  "theme": "monster"
+ },
+ {
+  "id": "ubongo-3d",
+  "titleKo": "우봉고 3D",
+  "titleOriginal": "Ubongo 3-D",
+  "year": 2008,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 25,
+   "max": 25
+  },
+  "age": 8,
+  "weight": 1.4,
+  "weightBasis": "시간 안에 입체 조각을 맞추는 퍼즐",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 7.5
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "ciao-ciao",
+  "titleKo": "챠오챠오",
+  "titleOriginal": "Ciao Ciao",
+  "year": 2011,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 8,
+  "weight": 1.2,
+  "weightBasis": "주사위를 가리고 거짓말을 하는 블러핑 레이스",
+  "genres": [
+   "family",
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.2,
+   "longevity": 6
+  },
+  "theme": "dice"
+ },
+ {
+  "id": "libertalia",
+  "titleKo": "리버탈리아",
+  "titleOriginal": "Libertalia: Winds of Galecrest",
+  "year": 2022,
+  "players": {
+   "min": 1,
+   "max": 6,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 60
+  },
+  "age": 14,
+  "weight": 2.3,
+  "weightBasis": "같은 카드 구성으로 동시에 내는 눈치 싸움 구조",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.1,
+   "longevity": 7
+  },
+  "theme": "pirate"
+ },
+ {
+  "id": "bang",
+  "titleKo": "뱅",
+  "titleOriginal": "BANG!",
+  "year": 2002,
+  "players": {
+   "min": 4,
+   "max": 7,
+   "best": [
+    5,
+    6,
+    7
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 40
+  },
+  "age": 8,
+  "weight": 1.8,
+  "weightBasis": "역할을 숨기고 총격을 주고받는 카드 게임",
+  "genres": [
+   "party",
+   "deduction"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.3,
+   "longevity": 9
+  },
+  "theme": "sword"
+ },
+ {
+  "id": "frosthaven",
+  "titleKo": "프로스트헤이븐",
+  "titleOriginal": "Frosthaven",
+  "year": 2022,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 120
+  },
+  "age": 14,
+  "weight": 4.4,
+  "weightBasis": "캠페인과 마을 건설을 포함해 규칙과 구성물 분량이 매우 큼",
+  "genres": [
+   "coop",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 9.2,
+   "longevity": 7.5
+  },
+  "theme": "sword"
+ },
+ {
+  "id": "gloomhaven-jaws-of-the-lion",
+  "titleKo": "글룸헤이븐: 사자의 턱",
+  "titleOriginal": "Gloomhaven: Jaws of the Lion",
+  "year": 2020,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 14,
+  "weight": 3.5,
+  "weightBasis": "입문용으로 다듬었지만 캠페인 전투 규칙이 많음",
+  "genres": [
+   "coop",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 9,
+   "longevity": 8
+  },
+  "theme": "sword"
+ },
+ {
+  "id": "camel-up",
+  "titleKo": "카멜업 2판",
+  "titleOriginal": "Camel Up (Second Edition)",
+  "year": 2018,
+  "players": {
+   "min": 3,
+   "max": 8,
+   "best": [
+    5,
+    6
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.5,
+  "weightBasis": "낙타 경주에 베팅하는 가벼운 게임",
+  "genres": [
+   "family",
+   "race"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2014,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 8
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "ubongo",
+  "titleKo": "우봉고",
+  "titleOriginal": "Ubongo",
+  "year": 2003,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 25,
+   "max": 25
+  },
+  "age": 8,
+  "weight": 1.3,
+  "weightBasis": "시간 안에 조각을 맞추는 실시간 퍼즐",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres) 후보",
+    "year": 2005,
+    "level": "nominee"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.5,
+   "longevity": 8.5
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "hitster",
+  "titleKo": "힛스터",
+  "titleOriginal": "Hitster",
+  "year": 2022,
+  "players": {
+   "min": 2,
+   "max": 10,
+   "best": [
+    4,
+    6
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 12,
+  "weight": 1.1,
+  "weightBasis": "노래를 듣고 연도 순서대로 놓는 단순한 파티 게임",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.9,
+   "longevity": 6.5
+  },
+  "theme": "music"
+ },
+ {
+  "id": "galileo-galilei",
+  "titleKo": "갈릴레오 갈릴레이",
+  "titleOriginal": "Galileo Galilei",
+  "year": 2023,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 60
+  },
+  "age": 14,
+  "weight": 3.2,
+  "weightBasis": "과학자 주제의 행동 선택과 자원 관리가 결합됨",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 5
+  },
+  "theme": "space"
+ },
+ {
+  "id": "quest-for-el-dorado",
+  "titleKo": "황금의 땅 엘도라도",
+  "titleOriginal": "The Quest for El Dorado",
+  "year": 2017,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 45
+  },
+  "age": 10,
+  "weight": 1.9,
+  "weightBasis": "덱 빌딩으로 경주를 하는 입문용 구조",
+  "genres": [
+   "deck",
+   "race"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres) 후보",
+    "year": 2017,
+    "level": "nominee"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8.1,
+   "longevity": 7.5
+  },
+  "theme": "nature"
+ },
+ {
+  "id": "looping-louie",
+  "titleKo": "루핑루이",
+  "titleOriginal": "Looping Louie",
+  "year": 1992,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 10,
+   "max": 10
+  },
+  "age": 5,
+  "weight": 1,
+  "weightBasis": "비행기를 튕기는 동작이 규칙의 전부",
+  "genres": [
+   "family",
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.3,
+   "longevity": 8.5
+  },
+  "theme": "bird"
+ },
+ {
+  "id": "unlock-legendary-adventures",
+  "titleKo": "언락: 전설적인 모험",
+  "titleOriginal": "Unlock! Legendary Adventures",
+  "year": 2021,
+  "players": {
+   "min": 1,
+   "max": 6,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 60
+  },
+  "age": 10,
+  "weight": 1.9,
+  "weightBasis": "카드 방탈출로 규칙은 짧고 퍼즐이 중심",
+  "genres": [
+   "coop",
+   "deduction"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.7,
+   "longevity": 6.5
+  },
+  "theme": "mystery"
+ },
+ {
+  "id": "blokus",
+  "titleKo": "블로커스",
+  "titleOriginal": "Blokus",
+  "year": 2000,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 7,
+  "weight": 1.3,
+  "weightBasis": "모서리만 닿게 조각을 놓는 추상 게임",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.6,
+   "longevity": 9
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "ticket-to-ride-paris",
+  "titleKo": "티켓 투 라이드: 파리",
+  "titleOriginal": "Ticket to Ride: Paris",
+  "year": 2024,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 10,
+   "max": 15
+  },
+  "age": 8,
+  "weight": 1.4,
+  "weightBasis": "짧게 다듬은 경로 연결 게임",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.7,
+   "longevity": 6
+  },
+  "theme": "train"
+ },
+ {
+  "id": "targi",
+  "titleKo": "타르기",
+  "titleOriginal": "Targi",
+  "year": 2012,
+  "players": {
+   "min": 2,
+   "max": 2,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 60
+  },
+  "age": 12,
+  "weight": 2.3,
+  "weightBasis": "카드 격자에 일꾼을 놓는 2인 전략",
+  "genres": [
+   "two",
+   "worker"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 7.5
+  },
+  "theme": "money"
+ },
+ {
+  "id": "obsession",
+  "titleKo": "업세션",
+  "titleOriginal": "Obsession",
+  "year": 2018,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 90
+  },
+  "age": 14,
+  "weight": 2.8,
+  "weightBasis": "영국 저택 경영을 다룬 카드 흐름 관리 게임",
+  "genres": [
+   "strategy",
+   "deck"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.5,
+   "longevity": 7
+  },
+  "theme": "castle"
+ },
+ {
+  "id": "pandemic-legacy-season-0",
+  "titleKo": "팬데믹 레거시 시즌0",
+  "titleOriginal": "Pandemic Legacy: Season 0",
+  "year": 2020,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 60
+  },
+  "age": 14,
+  "weight": 2.9,
+  "weightBasis": "레거시 캠페인으로 규칙이 계속 바뀌는 협력 게임",
+  "genres": [
+   "coop"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.6,
+   "longevity": 6
+  },
+  "theme": "medical"
+ },
+ {
+  "id": "draftosaurus",
+  "titleKo": "드래프토사우르스",
+  "titleOriginal": "Draftosaurus",
+  "year": 2019,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 8,
+  "weight": 1.3,
+  "weightBasis": "주사위 제한에 맞춰 공룡을 놓는 가벼운 드래프트",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.7,
+   "longevity": 7
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "no-thanks",
+  "titleKo": "노 땡스 딜럭스",
+  "titleOriginal": "No Thanks!",
+  "year": 2004,
+  "players": {
+   "min": 3,
+   "max": 7,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 8,
+  "weight": 1.1,
+  "weightBasis": "카드를 받거나 토큰을 내는 선택만 있는 필러",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 9
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "ready-set-bet",
+  "titleKo": "레디 셋 벳",
+  "titleOriginal": "Ready Set Bet",
+  "year": 2022,
+  "players": {
+   "min": 2,
+   "max": 9,
+   "best": [
+    6,
+    7
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 60
+  },
+  "age": 14,
+  "weight": 1.6,
+  "weightBasis": "실시간으로 경주에 베팅하는 파티 게임",
+  "genres": [
+   "party",
+   "race"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.1,
+   "longevity": 6.5
+  },
+  "theme": "dice"
+ },
+ {
+  "id": "marrakech",
+  "titleKo": "마라케시",
+  "titleOriginal": "Marrakech",
+  "year": 2007,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 7,
+  "weight": 1.2,
+  "weightBasis": "주사위 이동과 양탄자 놓기로 진행되는 가벼운 게임",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 8
+  },
+  "theme": "city"
+ },
+ {
+  "id": "quoridor",
+  "titleKo": "쿼리도",
+  "titleOriginal": "Quoridor",
+  "year": 1997,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 8,
+  "weight": 1.5,
+  "weightBasis": "말 이동과 벽 놓기 두 가지 선택만 있는 추상 게임",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.6,
+   "longevity": 9
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "gloomhaven",
+  "titleKo": "글룸헤이븐",
+  "titleOriginal": "Gloomhaven",
+  "year": 2017,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 14,
+  "weight": 3.9,
+  "weightBasis": "캠페인 전투로 구성물과 룰북 분량이 큼",
+  "genres": [
+   "coop",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 9.1,
+   "longevity": 9
+  },
+  "theme": "sword"
+ },
+ {
+  "id": "canvas",
+  "titleKo": "캔버스",
+  "titleOriginal": "Canvas",
+  "year": 2021,
+  "players": {
+   "min": 1,
+   "max": 5,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 14,
+  "weight": 1.8,
+  "weightBasis": "투명 카드를 겹쳐 그림을 만드는 세트 수집",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 6
+  },
+  "theme": "art"
+ },
+ {
+  "id": "dobble",
+  "titleKo": "도블",
+  "titleOriginal": "Dobble",
+  "year": 2009,
+  "players": {
+   "min": 2,
+   "max": 8,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 6,
+  "weight": 1,
+  "weightBasis": "같은 그림을 먼저 찾는 순발력 게임",
+  "genres": [
+   "party",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.5,
+   "longevity": 9
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "finca",
+  "titleKo": "핀카",
+  "titleOriginal": "Finca",
+  "year": 2009,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 45
+  },
+  "age": 10,
+  "weight": 1.9,
+  "weightBasis": "풍차 이동으로 과일을 모으고 배달하는 구조",
+  "genres": [
+   "family",
+   "trade"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.6,
+   "longevity": 6.5
+  },
+  "theme": "food"
+ },
+ {
+  "id": "perudo",
+  "titleKo": "페루도",
+  "titleOriginal": "Perudo",
+  "year": 1993,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 10,
+  "weight": 1.2,
+  "weightBasis": "컵 속 주사위 개수를 부르는 블러핑 게임",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.5,
+   "longevity": 9
+  },
+  "theme": "dice"
+ },
+ {
+  "id": "cascadia",
+  "titleKo": "캐스캐디아",
+  "titleOriginal": "Cascadia",
+  "year": 2021,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 45
+  },
+  "age": 10,
+  "weight": 1.8,
+  "weightBasis": "서식지 타일과 동물 토큰을 고르는 구조",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 2022,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 8.5,
+   "longevity": 8
+  },
+  "theme": "nature"
+ },
+ {
+  "id": "citadels",
+  "titleKo": "시타델",
+  "titleOriginal": "Citadels",
+  "year": 2000,
+  "players": {
+   "min": 2,
+   "max": 8,
+   "best": [
+    5,
+    6
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 60
+  },
+  "age": 10,
+  "weight": 2,
+  "weightBasis": "매 라운드 역할을 고르고 건물을 짓는 심리전",
+  "genres": [
+   "party",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 9
+  },
+  "theme": "castle"
+ },
+ {
+  "id": "othello",
+  "titleKo": "오델로 클래식",
+  "titleOriginal": "Othello",
+  "year": 1973,
+  "players": {
+   "min": 2,
+   "max": 2,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 7,
+  "weight": 1.3,
+  "weightBasis": "돌을 뒤집는 규칙 하나로 이루어진 추상 게임",
+  "genres": [
+   "two"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.3,
+   "longevity": 9.5
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "eldritch-horror",
+  "titleKo": "엘드리치 호러",
+  "titleOriginal": "Eldritch Horror",
+  "year": 2013,
+  "players": {
+   "min": 1,
+   "max": 8,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 120,
+   "max": 240
+  },
+  "age": 14,
+  "weight": 3.4,
+  "weightBasis": "세계를 돌며 이벤트와 예외 규칙을 처리하는 장시간 협력",
+  "genres": [
+   "coop"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.3,
+   "longevity": 8
+  },
+  "theme": "monster"
+ },
+ {
+  "id": "legends-of-andor",
+  "titleKo": "안도르의 전설",
+  "titleOriginal": "Legends of Andor",
+  "year": 2012,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 90
+  },
+  "age": 14,
+  "weight": 2.6,
+  "weightBasis": "시나리오식으로 규칙을 익히는 협력 모험",
+  "genres": [
+   "coop"
+  ],
+  "awards": [
+   {
+    "name": "전문가 게임상(Kennerspiel des Jahres)",
+    "year": 2013,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.9,
+   "longevity": 7.5
+  },
+  "theme": "castle"
+ },
+ {
+  "id": "cockroach-poker",
+  "titleKo": "바퀴벌레 포커",
+  "titleOriginal": "Cockroach Poker",
+  "year": 2004,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 25
+  },
+  "age": 8,
+  "weight": 1.2,
+  "weightBasis": "카드를 건네며 거짓을 맞히는 블러핑",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 8.5
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "cockroach-poker-royal",
+  "titleKo": "바퀴벌레 포커 로얄",
+  "titleOriginal": "Cockroach Poker Royal",
+  "year": 2014,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 25
+  },
+  "age": 8,
+  "weight": 1.3,
+  "weightBasis": "기본 게임에 카드 능력을 더한 블러핑",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.6,
+   "longevity": 6.5
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "cockroach-salad",
+  "titleKo": "바퀴벌레 샐러드",
+  "titleOriginal": "Kakerlakensalat",
+  "year": 2007,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 6,
+  "weight": 1.1,
+  "weightBasis": "카드를 내며 틀린 이름을 말하는 순발력 게임",
+  "genres": [
+   "party",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.2,
+   "longevity": 7.5
+  },
+  "theme": "food"
+ },
+ {
+  "id": "zicke-zacke-huehnerkacke",
+  "titleKo": "치킨차차",
+  "titleOriginal": "Zicke Zacke Hühnerkacke",
+  "year": 1997,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 20
+  },
+  "age": 4,
+  "weight": 1.1,
+  "weightBasis": "기억력으로 앞의 닭을 쫓는 어린이 게임",
+  "genres": [
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "어린이 게임상(Kinderspiel des Jahres)",
+    "year": 1998,
+    "level": "special"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 9
+  },
+  "theme": "bird"
+ },
+ {
+  "id": "labyrinth",
+  "titleKo": "라비린스",
+  "titleOriginal": "Labyrinth",
+  "year": 1986,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 30
+  },
+  "age": 7,
+  "weight": 1.4,
+  "weightBasis": "미로 타일을 밀어 길을 만드는 가족 게임",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.6,
+   "longevity": 9.5
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "scotland-yard",
+  "titleKo": "스코틀랜드 야드",
+  "titleOriginal": "Scotland Yard",
+  "year": 1983,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4,
+    5
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 45
+  },
+  "age": 8,
+  "weight": 1.8,
+  "weightBasis": "숨은 범인을 경찰 팀이 쫓는 이동 추리",
+  "genres": [
+   "deduction",
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres)",
+    "year": 1983,
+    "level": "winner"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 9.5
+  },
+  "theme": "detective"
+ },
+ {
+  "id": "magic-labyrinth",
+  "titleKo": "마법의 미로",
+  "titleOriginal": "The Magic Labyrinth",
+  "year": 2009,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 30
+  },
+  "age": 6,
+  "weight": 1.2,
+  "weightBasis": "숨겨진 벽을 기억하며 이동하는 어린이 게임",
+  "genres": [
+   "family"
+  ],
+  "awards": [
+   {
+    "name": "어린이 게임상(Kinderspiel des Jahres)",
+    "year": 2009,
+    "level": "special"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.7,
+   "longevity": 8
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "project-l",
+  "titleKo": "프로젝트 L",
+  "titleOriginal": "Project L",
+  "year": 2020,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.6,
+  "weightBasis": "퍼즐 조각을 맞추어 업그레이드하는 구조",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 6.5
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "magic-maze",
+  "titleKo": "매직 메이즈",
+  "titleOriginal": "Magic Maze",
+  "year": 2017,
+  "players": {
+   "min": 1,
+   "max": 8,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 8,
+  "weight": 1.7,
+  "weightBasis": "말없이 동시에 움직이는 실시간 협력",
+  "genres": [
+   "coop"
+  ],
+  "awards": [
+   {
+    "name": "올해의 게임(Spiel des Jahres) 후보",
+    "year": 2017,
+    "level": "nominee"
+   }
+  ],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 7.5
+  },
+  "theme": "mystery"
+ },
+ {
+  "id": "tiny-towns",
+  "titleKo": "타이니 타운",
+  "titleOriginal": "Tiny Towns",
+  "year": 2019,
+  "players": {
+   "min": 1,
+   "max": 6,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 45
+  },
+  "age": 7,
+  "weight": 2,
+  "weightBasis": "불러 준 자원을 놓아 건물 패턴을 맞추는 구조",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 7
+  },
+  "theme": "city"
+ },
+ {
+  "id": "spicy",
+  "titleKo": "스파이시",
+  "titleOriginal": "Spicy",
+  "year": 2020,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 10,
+  "weight": 1.2,
+  "weightBasis": "카드 숫자를 속여 내는 블러핑 게임",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.7,
+   "longevity": 6.5
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "coconuts",
+  "titleKo": "코코너츠",
+  "titleOriginal": "Coconuts",
+  "year": 2013,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 6,
+  "weight": 1,
+  "weightBasis": "원숭이 발사대로 컵에 코코넛을 넣는 동작 게임",
+  "genres": [
+   "family",
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.2,
+   "longevity": 7.5
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "rummikub",
+  "titleKo": "루미큐브 클래식",
+  "titleOriginal": "Rummikub",
+  "year": 1977,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 20
+  },
+  "age": 8,
+  "weight": 1.4,
+  "weightBasis": "숫자 타일로 조합을 만드는 기본 규칙",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 9.5
+  },
+  "theme": "puzzle"
+ },
+ {
+  "id": "ticket-to-ride-ghost-train",
+  "titleKo": "티켓 투 라이드: 유령 열차",
+  "titleOriginal": "Ticket to Ride: Ghost Train",
+  "year": 2023,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 30
+  },
+  "age": 6,
+  "weight": 1.2,
+  "weightBasis": "어린이도 할 수 있게 줄인 경로 연결 게임",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.2,
+   "longevity": 5.5
+  },
+  "theme": "train"
+ },
+ {
+  "id": "serpentina",
+  "titleKo": "서펜티나",
+  "titleOriginal": "Serpentina",
+  "year": 2017,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 4,
+  "weight": 1,
+  "weightBasis": "뱀 그림 카드를 이어 붙이는 어린이 게임",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 6.8,
+   "longevity": 5
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "lovecraft-letter",
+  "titleKo": "러브크래프트 레터: 아컴호러",
+  "titleOriginal": "Lovecraft Letter",
+  "year": 2017,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 45
+  },
+  "age": 14,
+  "weight": 1.4,
+  "weightBasis": "러브레터 구조에 광기 규칙을 더한 카드 게임",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 6
+  },
+  "theme": "monster"
+ },
+ {
+  "id": "agricola-acbas-big-box",
+  "titleKo": "아그리콜라 2인용: 크고 작은 생물들 빅 박스",
+  "titleOriginal": "Agricola: All Creatures Big and Small – The Big Box",
+  "year": 2020,
+  "players": {
+   "min": 2,
+   "max": 2,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 14,
+  "weight": 2.3,
+  "weightBasis": "농장 일꾼 놓기를 2인 전용으로 압축",
+  "genres": [
+   "two",
+   "worker"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.1,
+   "longevity": 7
+  },
+  "theme": "farm"
+ },
+ {
+  "id": "wingspan-asia",
+  "titleKo": "윙스팬: 아시아",
+  "titleOriginal": "Wingspan Asia",
+  "year": 2022,
+  "players": {
+   "min": 1,
+   "max": 2,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 40,
+   "max": 70
+  },
+  "age": 14,
+  "weight": 2.5,
+  "weightBasis": "독립 실행판으로 윙스팬 구조에 2인 대결을 더함",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.4,
+   "longevity": 6.5
+  },
+  "theme": "bird"
+ },
+ {
+  "id": "star-wars-rebellion",
+  "titleKo": "스타워즈 리벨리온",
+  "titleOriginal": "Star Wars: Rebellion",
+  "year": 2016,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 180,
+   "max": 240
+  },
+  "age": 14,
+  "weight": 3.7,
+  "weightBasis": "비대칭 진영으로 은하 전체를 다투는 장시간 게임",
+  "genres": [
+   "area",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.8,
+   "longevity": 8
+  },
+  "theme": "space"
+ },
+ {
+  "id": "wow-wrath-of-the-lich-king",
+  "titleKo": "월드 오브 워크래프트: 리치왕의 분노",
+  "titleOriginal": "World of Warcraft: Wrath of the Lich King",
+  "year": 2021,
+  "players": {
+   "min": 1,
+   "max": 5,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 60
+  },
+  "age": 14,
+  "weight": 2.5,
+  "weightBasis": "팬데믹 시스템을 전투 중심으로 바꾼 협력 게임",
+  "genres": [
+   "coop"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 5.5
+  },
+  "theme": "monster"
+ },
+ {
+  "id": "the-wolves",
+  "titleKo": "더 울브즈",
+  "titleOriginal": "The Wolves",
+  "year": 2023,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    3,
+    4
+   ]
+  },
+  "playTime": {
+   "min": 75,
+   "max": 75
+  },
+  "age": 14,
+  "weight": 2.6,
+  "weightBasis": "늑대 무리로 지역을 차지하는 영향력 게임",
+  "genres": [
+   "area",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.9,
+   "longevity": 5.5
+  },
+  "theme": "animal"
+ },
+ {
+  "id": "istanbul-dice-game",
+  "titleKo": "이스탄불 주사위 게임",
+  "titleOriginal": "Istanbul: The Dice Game",
+  "year": 2017,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 20,
+   "max": 40
+  },
+  "age": 8,
+  "weight": 1.9,
+  "weightBasis": "주사위 결과로 상품을 모아 보석을 사는 구조",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 6
+  },
+  "theme": "dice"
+ },
+ {
+  "id": "dixit-odyssey",
+  "titleKo": "딕싯 오디세이",
+  "titleOriginal": "Dixit: Odyssey",
+  "year": 2011,
+  "players": {
+   "min": 3,
+   "max": 12,
+   "best": [
+    6,
+    7
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 30
+  },
+  "age": 8,
+  "weight": 1.2,
+  "weightBasis": "그림을 보고 이야기를 떠올리는 대규모 인원용 딕싯",
+  "genres": [
+   "party"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.8,
+   "longevity": 8
+  },
+  "theme": "art"
+ },
+ {
+  "id": "level-8",
+  "titleKo": "레벨8",
+  "titleOriginal": "Level 8",
+  "year": 1999,
+  "players": {
+   "min": 2,
+   "max": 6,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 45,
+   "max": 45
+  },
+  "age": 8,
+  "weight": 1.3,
+  "weightBasis": "단계별 세트를 모으는 손패 게임",
+  "genres": [
+   "party",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7,
+   "longevity": 7
+  },
+  "theme": "cards"
+ },
+ {
+  "id": "azul-stained-glass-of-sintra",
+  "titleKo": "아줄: 신트라의 스테인드글라스",
+  "titleOriginal": "Azul: Stained Glass of Sintra",
+  "year": 2018,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 45
+  },
+  "age": 8,
+  "weight": 2,
+  "weightBasis": "타일 드래프트에 유리창 패턴 맞추기를 더함",
+  "genres": [
+   "tile",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 7
+  },
+  "theme": "art"
+ },
+ {
+  "id": "weather-machine",
+  "titleKo": "웨더 머신",
+  "titleOriginal": "Weather Machine",
+  "year": 2022,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    3
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 150
+  },
+  "age": 14,
+  "weight": 4.1,
+  "weightBasis": "이동식 일꾼과 연구 트랙이 복잡하게 얽힘",
+  "genres": [
+   "worker",
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8.2,
+   "longevity": 5
+  },
+  "theme": "space"
+ },
+ {
+  "id": "masters-of-renaissance",
+  "titleKo": "르네상스의 거장들",
+  "titleOriginal": "Masters of Renaissance: Lorenzo il Magnifico – The Card Game",
+  "year": 2021,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 60
+  },
+  "age": 14,
+  "weight": 2.2,
+  "weightBasis": "자원 시장과 카드 수집을 조합하는 카드 게임",
+  "genres": [
+   "strategy"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.7,
+   "longevity": 5
+  },
+  "theme": "art"
+ },
+ {
+  "id": "trekking-through-history",
+  "titleKo": "트레킹: 역사 속으로",
+  "titleOriginal": "Trekking Through History",
+  "year": 2022,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 30,
+   "max": 60
+  },
+  "age": 10,
+  "weight": 2.1,
+  "weightBasis": "연표 카드로 시간 여행 경로를 구성하는 구조",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 6
+  },
+  "theme": "city"
+ },
+ {
+  "id": "chronicles-of-crime-1400",
+  "titleKo": "사건의 재구성: 1400",
+  "titleOriginal": "Chronicles of Crime: 1400",
+  "year": 2020,
+  "players": {
+   "min": 1,
+   "max": 4,
+   "best": [
+    2,
+    3
+   ]
+  },
+  "playTime": {
+   "min": 60,
+   "max": 90
+  },
+  "age": 12,
+  "weight": 1.9,
+  "weightBasis": "앱으로 증거를 조사하는 협력 추리",
+  "genres": [
+   "deduction",
+   "coop"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 8,
+   "longevity": 6
+  },
+  "theme": "detective"
+ },
+ {
+  "id": "battleship",
+  "titleKo": "배틀쉽",
+  "titleOriginal": "Battleship",
+  "year": 1967,
+  "players": {
+   "min": 2,
+   "max": 4,
+   "best": [
+    2
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 7,
+  "weight": 1.1,
+  "weightBasis": "좌표를 불러 상대 배를 찾는 단순 추리",
+  "genres": [
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 6.8,
+   "longevity": 9
+  },
+  "theme": "pirate"
+ },
+ {
+  "id": "strike",
+  "titleKo": "스트라이크",
+  "titleOriginal": "Strike",
+  "year": 2012,
+  "players": {
+   "min": 2,
+   "max": 5,
+   "best": [
+    4
+   ]
+  },
+  "playTime": {
+   "min": 15,
+   "max": 15
+  },
+  "age": 8,
+  "weight": 1,
+  "weightBasis": "주사위를 경기장에 던져 넣는 동작 게임",
+  "genres": [
+   "party",
+   "family"
+  ],
+  "awards": [],
+  "score": {
+   "reviewTrend": 7.4,
+   "longevity": 7
+  },
+  "theme": "dice"
+ }
 ]

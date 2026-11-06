@@ -65,6 +65,14 @@ export function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+// 자유 라이선스 사진이 있으면 사진, 없으면 주제 일러스트(themes.svg)를 보여줍니다.
+export function thumbHtml(game, extraClass = "") {
+  const inner = game.image
+    ? `<img src="${escapeHtml(game.image.file)}" alt="" loading="lazy" />`
+    : `<svg viewBox="0 0 20 20"><use href="/assets/themes.svg#${escapeHtml(game.theme)}"></use></svg>`;
+  return `<div class="thumb ${extraClass}" data-genre="${escapeHtml(game.genres[0])}" aria-hidden="true">${inner}</div>`;
+}
+
 let cache;
 export async function loadAll() {
   if (cache) return cache;

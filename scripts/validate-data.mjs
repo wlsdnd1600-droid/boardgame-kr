@@ -1,6 +1,6 @@
 // 데이터 파일 검사. Claude 주간 작업은 커밋 전에 반드시 `npm run validate` 를 실행하고,
 // 실패하면 커밋하지 않습니다. Vercel 빌드에서도 실행되어 잘못된 데이터가 배포되지 않습니다.
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 
 const load = (f) => JSON.parse(readFileSync(`public/data/${f}`, "utf8"));
 const errors = [];
@@ -21,6 +21,10 @@ const genreIds = new Set(genres.map((g) => g.id));
 const gameIds = new Set();
 const RELEASE_STATUS = ["confirmed", "candidate", "upcoming", "outOfPrint", "notReleased", "sample"];
 const AWARD_LEVEL = ["winner", "special", "nominee"];
+const OFFICIAL_STOCK = ["inStock", "soldOut"];
+const THEMES = new Set([...readFileSync("public/assets/themes.svg", "utf8").matchAll(/<symbol id="([a-z]+)"/g)].map((m) => m[1]));
+// 게임 사진은 재사용이 허용된 자유 라이선스만 씁니다. 퍼블리셔 박스 이미지는 넣지 않습니다.
+const FREE_LICENSE = /^(CC0|Public domain|PD[ -]|CC BY(-SA)? \d)/i;
 
 for (const g of games) {
   const where = `games.json[${g.id}]`;
@@ -45,6 +49,14 @@ for (const g of games) {
     const v = g.score?.[k];
     if (!(v >= 0 && v <= 10)) err(`${where}: score.${k}는 0~10`);
   }
+  if (!THEMES.has(g.theme)) err(`${where}: theme는 themes.svg 의 id`);
+  if (g.image) {
+    const i = g.image;
+    if (!/^\/images\/games\/[a-z0-9-]+\.(jpg|png)$/.test(i.file || "") || !existsSync(`public${i.file}`)) err(`${where}: image.file 없음 ${i.file}`);
+    if (!FREE_LICENSE.test(i.license || "")) err(`${where}: 자유 라이선스가 아닌 사진 ${i.license}`);
+    if (!i.credit) err(`${where}: image.credit 없음`);
+    if (!/^https:\/\/commons\.wikimedia\.org\//.test(i.sourceUrl || "")) err(`${where}: image.sourceUrl은 위키미디어 공용 주소`);
+  }
   if (!Array.isArray(g.awards)) err(`${where}: awards는 배열 (수상이 없으면 [])`);
   for (const a of g.awards || []) {
     if (!AWARD_LEVEL.includes(a.level)) err(`${where}: 수상 level 오류 ${a.level}`);
@@ -58,6 +70,7 @@ for (const r of releases) {
   if (!RELEASE_STATUS.includes(r.status)) err(`${where}: 상태값 오류 ${r.status}`);
   if (r.status === "confirmed" && !(r.sourceUrls?.length >= 1)) err(`${where}: 확정인데 출처 URL 없음`);
   if (r.status === "confirmed" && !r.checkedAt) err(`${where}: 확정인데 확인일 없음`);
+  if (r.officialStock && !OFFICIAL_STOCK.includes(r.officialStock)) err(`${where}: officialStock 오류 ${r.officialStock}`);
 }
 for (const id of gameIds) if (!releases.some((r) => r.gameId === id)) err(`releases.json: ${id} 발매 정보 없음`);
 

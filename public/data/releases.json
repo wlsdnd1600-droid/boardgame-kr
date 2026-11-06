@@ -1,21 +1,27 @@
 [
  {
   "gameId": "splendor",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20260000566GZK"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20260000566GZK",
+  "officialStock": "inStock"
  },
  {
   "gameId": "catan",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002306HNSS"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002306HNSS",
+  "officialStock": "soldOut"
  },
  {
   "gameId": "ticket-to-ride",
@@ -28,30 +34,39 @@
  },
  {
   "gameId": "azul",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002161QTU7"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002161QTU7",
+  "officialStock": "soldOut"
  },
  {
   "gameId": "wingspan",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002230YYCP"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002230YYCP",
+  "officialStock": "soldOut"
  },
  {
   "gameId": "terraforming-mars",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002219ZQAY"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002219ZQAY",
+  "officialStock": "soldOut"
  },
  {
   "gameId": "codenames",
@@ -64,57 +79,75 @@
  },
  {
   "gameId": "dixit",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002321NY8U"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002321NY8U",
+  "officialStock": "soldOut"
  },
  {
   "gameId": "halli-galli",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002349EJR9"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002349EJR9",
+  "officialStock": "inStock"
  },
  {
   "gameId": "agricola",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002060XTAK"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002060XTAK",
+  "officialStock": "inStock"
  },
  {
   "gameId": "pandemic",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002198YJ8N"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002198YJ8N",
+  "officialStock": "inStock"
  },
  {
   "gameId": "carcassonne",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240022104YTN"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240022104YTN",
+  "officialStock": "inStock"
  },
  {
   "gameId": "7-wonders-duel",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002215YOEO"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002215YOEO",
+  "officialStock": "inStock"
  },
  {
   "gameId": "the-mind",
@@ -127,12 +160,15 @@
  },
  {
   "gameId": "avalon",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002224O4GJ"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002224O4GJ",
+  "officialStock": "inStock"
  },
  {
   "gameId": "brass-birmingham",
@@ -154,21 +190,27 @@
  },
  {
   "gameId": "dominion",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002229PPWU"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002229PPWU",
+  "officialStock": "soldOut"
  },
  {
   "gameId": "love-letter",
-  "publisher": null,
+  "publisher": "코리아보드게임즈",
   "releaseDate": null,
-  "status": "sample",
-  "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002257YA6J"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002257YA6J",
+  "officialStock": "soldOut"
  },
  {
   "gameId": "king-of-tokyo",
@@ -187,5 +229,1169 @@
   "sourceUrls": [],
   "checkedAt": null,
   "buyUrl": null
+ },
+ {
+  "gameId": "medical-mysteries-nyc-er",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002845B53A"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002845B53A",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "harmonies",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002433KKSI"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002433KKSI",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "castles-of-burgundy",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002184GTDS"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002184GTDS",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "las-vegas",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002324AGQI"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002324AGQI",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "ark-nova",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002146ZV2C"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002146ZV2C",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "lotr-duel-for-middle-earth",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002811RWTD"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002811RWTD",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "puerto-rico-1897",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002247T3OW"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002247T3OW",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "saboteur",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002263BXSK"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002263BXSK",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "clank-catacombs",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000240XQBB"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000240XQBB",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "coffee-rush",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002325IRCJ"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002325IRCJ",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "thats-not-a-hat",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002378FLEY"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002378FLEY",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "great-dalmuti",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002332NAYI"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002332NAYI",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "arkham-horror-lcg",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002600IQ1F"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002600IQ1F",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "dune-imperium-uprising",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240024902BES"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240024902BES",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "wyrmspan",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000123UH1P"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000123UH1P",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "lost-cities",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002255CSOL"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002255CSOL",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "tichu",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002138FLFJ"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002138FLFJ",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "bohnanza",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002276JXLD"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002276JXLD",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "bomb-busters",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20250002497ZSE"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20250002497ZSE",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "hols-der-geier",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002214PFJF"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002214PFJF",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "acquire",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002393QCYT"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002393QCYT",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "search-for-planet-x",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20250004163DPH"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20250004163DPH",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "splendor-duel",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002239IXDT"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002239IXDT",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "coda",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002346M4NG"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002346M4NG",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "at-the-gates-of-loyang",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001696AHXR"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001696AHXR",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "6-nimmt",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002261FGQV"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002261FGQV",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "le-havre",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001763DQQF"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001763DQQF",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "uno",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002345GPQK"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002345GPQK",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "marvel-champions",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002032OEAR"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002032OEAR",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "quacks-of-quedlinburg",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240021727LQ9"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240021727LQ9",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "la-cucaracha",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002343BRXD"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002343BRXD",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "five-towers",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002471DSRO"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002471DSRO",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "mansions-of-madness",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002096AB7B"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002096AB7B",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "ubongo-3d",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002227WFMB"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002227WFMB",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "ciao-ciao",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD202400210427MP"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD202400210427MP",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "libertalia",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240018101XML"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240018101XML",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "bang",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002335QIBA"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002335QIBA",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "frosthaven",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000052VXAQ"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000052VXAQ",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "gloomhaven-jaws-of-the-lion",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002566OUY8"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002566OUY8",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "camel-up",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002240SGSY"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002240SGSY",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "ubongo",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240023397QCL"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240023397QCL",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "hitster",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000189MTKR"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000189MTKR",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "galileo-galilei",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000206WDHD"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000206WDHD",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "quest-for-el-dorado",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002051VPE9"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002051VPE9",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "looping-louie",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002347XFMV"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002347XFMV",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "unlock-legendary-adventures",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2026000485YPND"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2026000485YPND",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "blokus",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002843IXO0"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002843IXO0",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "ticket-to-ride-paris",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD202400259154JQ"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD202400259154JQ",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "targi",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001930CADD"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001930CADD",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "obsession",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002124IYYU"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002124IYYU",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "pandemic-legacy-season-0",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002004OQMA"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002004OQMA",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "draftosaurus",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240018579OII"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240018579OII",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "no-thanks",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20260004075RTD"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20260004075RTD",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "ready-set-bet",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240024236BLQ"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240024236BLQ",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "marrakech",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002246RVLU"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002246RVLU",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "quoridor",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002302BQ9Y"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002302BQ9Y",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "gloomhaven",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002613OLQ4"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002613OLQ4",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "canvas",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001955C6BW"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001955C6BW",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "dobble",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002341AMTX"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002341AMTX",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "finca",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000185HFIV"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000185HFIV",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "perudo",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002171EDYI"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002171EDYI",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "cascadia",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000153AYRW"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000153AYRW",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "citadels",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002241LUEI"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002241LUEI",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "othello",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002290I2RB"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002290I2RB",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "eldritch-horror",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002006FOBC"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002006FOBC",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "legends-of-andor",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001848EZNV"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001848EZNV",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "cockroach-poker",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000136FQWX"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000136FQWX",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "cockroach-poker-royal",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002273ZPWH"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002273ZPWH",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "cockroach-salad",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002884V2PI"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002884V2PI",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "zicke-zacke-huehnerkacke",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240023200CLR"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240023200CLR",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "labyrinth",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002283LISY"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002283LISY",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "scotland-yard",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240019835IDG"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240019835IDG",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "magic-labyrinth",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002280BTZ3"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002280BTZ3",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "project-l",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002008NSZB"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002008NSZB",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "magic-maze",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001919EYUC"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001919EYUC",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "tiny-towns",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001732UDNC"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001732UDNC",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "spicy",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002473JW5R"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002473JW5R",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "coconuts",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002267UJTE"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002267UJTE",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "rummikub",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240023487G4G"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240023487G4G",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "ticket-to-ride-ghost-train",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002002DMXF"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002002DMXF",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "serpentina",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002295DXGF"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002295DXGF",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "lovecraft-letter",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000048VP9X"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2025000048VP9X",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "agricola-acbas-big-box",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001843VFYK"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001843VFYK",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "wingspan-asia",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002165VNU5"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002165VNU5",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "star-wars-rebellion",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002019MO1N"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002019MO1N",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "wow-wrath-of-the-lich-king",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001748DGHN"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001748DGHN",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "the-wolves",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002062UVBL"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002062UVBL",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "istanbul-dice-game",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002011BXLY"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002011BXLY",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "dixit-odyssey",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002469JHHO"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002469JHHO",
+  "officialStock": "inStock"
+ },
+ {
+  "gameId": "level-8",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002381EJ4Q"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002381EJ4Q",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "azul-stained-glass-of-sintra",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240019134IO2"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240019134IO2",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "weather-machine",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001905SPK9"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001905SPK9",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "masters-of-renaissance",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001179EVXU"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001179EVXU",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "trekking-through-history",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD20240019087BM5"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD20240019087BM5",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "chronicles-of-crime-1400",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001902XIPZ"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024001902XIPZ",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "battleship",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002217NOON"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002217NOON",
+  "officialStock": "soldOut"
+ },
+ {
+  "gameId": "strike",
+  "publisher": "코리아보드게임즈",
+  "releaseDate": null,
+  "status": "confirmed",
+  "sourceUrls": [
+   "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002226LZN4"
+  ],
+  "checkedAt": "2026-11-06",
+  "buyUrl": "https://www.koreaboardgames.com/product/detail?prdCd=PD2024002226LZN4",
+  "officialStock": "soldOut"
  }
 ]

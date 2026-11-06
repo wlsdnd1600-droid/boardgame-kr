@@ -1,5 +1,5 @@
 import {
-  loadAll, computeScore, difficultyLevel, DIFFICULTY_LEVELS, playersText, timeText, escapeHtml,
+  loadAll, computeScore, difficultyLevel, DIFFICULTY_LEVELS, playersText, timeText, escapeHtml, thumbHtml,
 } from "./data.js";
 import { fetchRatingStats, isSupabaseConfigured } from "./supabase.js";
 
@@ -84,12 +84,13 @@ function card(g, genreLabel) {
   const lvl = difficultyLevel(g.weight);
   const li = document.createElement("li");
   li.className = "game-card";
-  const badge = g.release.status === "outOfPrint" ? `<span class="badge warn">절판</span>` : "";
+  const badge = g.release.status === "outOfPrint" ? `<span class="badge warn">절판</span>`
+    : g.release.status === "sample" ? `<span class="badge warn">예시</span>` : "";
   const member = g._stat?.review_count
     ? `<span class="meta">회원 ★ ${Number(g._stat.avg_rating).toFixed(1)} (${g._stat.review_count})</span>` : "";
   li.innerHTML = `
     <a href="/game?id=${encodeURIComponent(g.id)}" class="card-link">
-      <div class="thumb" data-genre="${escapeHtml(g.genres[0])}" aria-hidden="true">${escapeHtml(g.titleKo.slice(0, 1))}</div>
+      ${thumbHtml(g)}
       <div class="card-body">
         <h3>${escapeHtml(g.titleKo)} ${badge}</h3>
         <p class="orig">${escapeHtml(g.titleOriginal)} · ${g.year}</p>
@@ -114,7 +115,7 @@ function update() {
     .filter(matches)
     .sort(SORTERS[state.sort] || SORTERS.score);
   $("game-list").replaceChildren(...list.map((g) => card(g, data.genreLabel)));
-  $("result-count").textContent = `한국 발매작 ${list.length}개`;
+  $("result-count").textContent = `찾은 게임 ${list.length}개`;
   $("empty").hidden = list.length > 0;
 }
 

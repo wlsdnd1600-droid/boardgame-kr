@@ -1,5 +1,5 @@
 import {
-  loadAll, computeScore, difficultyLevel, playersText, timeText, escapeHtml, bggSearchUrl,
+  loadAll, computeScore, difficultyLevel, playersText, timeText, escapeHtml, bggSearchUrl, thumbHtml,
   SCORE_LABEL, SCORE_WEIGHTS, STATUS_LABEL, MIN_MEMBER_REVIEWS,
 } from "./data.js";
 import { isSupabaseConfigured, fetchRatingStats, fetchReviews, insertReview, insertReport } from "./supabase.js";
@@ -36,6 +36,11 @@ function scoreSection(score, stat) {
     <p class="muted small">AI 산정값입니다. 수상 이력이 없으면 중립값 5점으로 계산합니다. BGG 평점과는 다른 자체 점수예요.</p></section>`;
 }
 
+function photoCredit(img) {
+  if (!img) return "";
+  return `<p class="muted small">사진: ${e(img.credit)} · <a href="${e(img.sourceUrl)}" target="_blank" rel="noopener">${e(img.license)}</a> · 게임 공식 이미지가 아닙니다</p>`;
+}
+
 function releaseSection(r) {
   if (r.status === "sample") {
     return `<section class="panel"><h2>한국 발매 정보</h2>
@@ -46,7 +51,7 @@ function releaseSection(r) {
     <dl class="info">
       <dt>퍼블리셔</dt><dd>${e(r.publisher || "–")}</dd>
       <dt>출시일</dt><dd>${e(r.releaseDate || "–")}</dd>
-      <dt>구매처</dt><dd>${r.buyUrl ? `<a href="${e(r.buyUrl)}" target="_blank" rel="noopener">공식 판매 페이지</a>` : "–"}</dd>
+      <dt>구매처</dt><dd>${r.buyUrl ? `<a href="${e(r.buyUrl)}" target="_blank" rel="noopener">공식 판매 페이지</a>` : "–"}${r.officialStock === "soldOut" ? ` <span class="badge warn">확인일 기준 공식 몰 품절</span>` : ""}</dd>
       <dt>확인</dt><dd>${e(r.checkedAt || "–")} ${src ? `(${src})` : ""}</dd>
     </dl></section>`;
 }
@@ -141,17 +146,18 @@ async function main() {
   const stat = stats[g.id];
   const score = computeScore(g, stat);
   const lvl = difficultyLevel(g.weight);
-  document.title = `${g.titleKo} · 보드게임 고르기`;
+  document.title = `${g.titleKo} · 오늘의 보드게임은?!`;
   document.getElementById("loading").remove();
 
   root.insertAdjacentHTML("beforeend", `
     <section class="hero">
-      <div class="thumb big" data-genre="${e(g.genres[0])}" aria-hidden="true">${e(g.titleKo.slice(0, 1))}</div>
+      ${thumbHtml(g, "big")}
       <div>
         <h1>${e(g.titleKo)}</h1>
         <p class="orig">${e(g.titleOriginal)} · ${g.year}</p>
         <p class="genres">${g.genres.map((x) => `<span class="tag">${e(genreLabel[x])}</span>`).join(" ")}</p>
         <p><a href="${bggSearchUrl(g)}" target="_blank" rel="noopener" class="ext">BGG에서 보기 ↗</a></p>
+        ${photoCredit(g.image)}
       </div>
     </section>
     <section class="panel">
