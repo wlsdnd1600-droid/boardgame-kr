@@ -89,4 +89,4 @@ npm run validate   # 데이터 검사
 ## 주의
 - BoardGameGeek 페이지는 데이터 출처로 쓰지 않습니다 (BGG 약관의 AI 데이터 사용 금지). 상세 페이지에 BGG 검색 링크만 둡니다.
 - 리뷰 원문은 저장하지 않고 Claude 가 자기 말로 요약합니다.
-- 퍼블리셔 박스 이미지는 저작권 때문에 넣지 않습니다. 썸네일은 위키미디어 공용의 자유 라이선스 사진(`games.json` 의 `image`, 출처는 `/credits`)을 쓰고, 없으면 주제 일러스트(`assets/themes.svg`, `theme`)를 씁니다.
+- 퍼블리셔 박스 이미지는 저작권 때문에 넣지 않습니다. 썸네일은 모두 주제 픽셀 아이콘(`assets/themes.svg`, `games.json` 의 `theme`)을 씁니다. 사진 표시 코드(`image` 필드, `/credits`)는 남아 있지만 현재 사진은 넣지 않습니다.
