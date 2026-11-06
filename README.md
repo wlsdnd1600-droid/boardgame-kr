@@ -6,7 +6,7 @@
 > 현재 상태: **배포됨** — https://boardgame-kr.vercel.app (Vercel, main 푸시 시 자동 배포)
 > Supabase 프로젝트(서울)에 마이그레이션은 적용했지만, Vercel 에 `SUPABASE_ANON_KEY` 를 아직 넣지 않아
 > 회원 리뷰·제보·실시간 게임 수정은 "연동 전" 상태입니다. 키를 넣고 재배포하면 켜집니다.
-> `public/data` 는 118종이며, 111종은 코리아보드게임즈 공식 상품 페이지로 발매를 확인했고 7종은 예시 데이터(확인 전)입니다.
+> `public/data` 는 118종이며, 111종은 코리아보드게임즈 공식 상품 페이지로, 7종은 운영자 확인(`verifiedBy: "operator"`, 출처 URL 없음)으로 발매를 확인했습니다.
 
 ## 구조
 
@@ -101,7 +101,7 @@ Supabase 대시보드 → Table Editor → `game_updates` 에 행을 넣으면 �
 - 회원 평점: 별점(1~5)×2. 리뷰 5개 미만이면 빼고 나머지 비중으로 다시 계산
 - 가중치는 `public/assets/data.js` 의 `SCORE_WEIGHTS` 에서 바꿀 수 있습니다.
 
-**사이트에 보이는 발매 상태**: `confirmed`(정식 발매), `outOfPrint`(절판, 배지 표시), `sample`(예시 데이터).
+**사이트에 보이는 발매 상태**: `confirmed`(정식 발매), `outOfPrint`(절판, 배지 표시), `sample`(예시 데이터, 현재 없음). `confirmed` 는 출처 URL 과 확인일이 필수이며, 운영자가 직접 확인한 게임만 `verifiedBy: "operator"` 로 출처 없이 허용합니다(상세 화면에 "운영자 확인" 표시).
 `candidate`·`upcoming`·`notReleased` 는 숨깁니다.
 
 ## 주의

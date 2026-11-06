@@ -27,10 +27,11 @@
   "gameId": "ticket-to-ride",
   "publisher": null,
   "releaseDate": null,
-  "status": "sample",
+  "status": "confirmed",
   "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "checkedAt": "2026-11-06",
+  "buyUrl": null,
+  "verifiedBy": "operator"
  },
  {
   "gameId": "azul",
@@ -72,10 +73,11 @@
   "gameId": "codenames",
   "publisher": null,
   "releaseDate": null,
-  "status": "sample",
+  "status": "confirmed",
   "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "checkedAt": "2026-11-06",
+  "buyUrl": null,
+  "verifiedBy": "operator"
  },
  {
   "gameId": "dixit",
@@ -153,10 +155,11 @@
   "gameId": "the-mind",
   "publisher": null,
   "releaseDate": null,
-  "status": "sample",
+  "status": "confirmed",
   "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "checkedAt": "2026-11-06",
+  "buyUrl": null,
+  "verifiedBy": "operator"
  },
  {
   "gameId": "avalon",
@@ -174,19 +177,21 @@
   "gameId": "brass-birmingham",
   "publisher": null,
   "releaseDate": null,
-  "status": "sample",
+  "status": "confirmed",
   "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "checkedAt": "2026-11-06",
+  "buyUrl": null,
+  "verifiedBy": "operator"
  },
  {
   "gameId": "kingdomino",
   "publisher": null,
   "releaseDate": null,
-  "status": "sample",
+  "status": "confirmed",
   "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "checkedAt": "2026-11-06",
+  "buyUrl": null,
+  "verifiedBy": "operator"
  },
  {
   "gameId": "dominion",
@@ -216,19 +221,21 @@
   "gameId": "king-of-tokyo",
   "publisher": null,
   "releaseDate": null,
-  "status": "sample",
+  "status": "confirmed",
   "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "checkedAt": "2026-11-06",
+  "buyUrl": null,
+  "verifiedBy": "operator"
  },
  {
   "gameId": "small-world",
   "publisher": null,
   "releaseDate": null,
-  "status": "sample",
+  "status": "confirmed",
   "sourceUrls": [],
-  "checkedAt": null,
-  "buyUrl": null
+  "checkedAt": "2026-11-06",
+  "buyUrl": null,
+  "verifiedBy": "operator"
  },
  {
   "gameId": "medical-mysteries-nyc-er",

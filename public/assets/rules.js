@@ -55,7 +55,9 @@ export function checkRelease(r) {
   const errs = [];
   const err = (m) => errs.push(m);
   if (!RELEASE_STATUS.includes(r.status)) err(`상태값 오류 ${r.status}`);
-  if (r.status === "confirmed" && !(r.sourceUrls?.length >= 1)) err("확정인데 출처 URL 없음");
+  // confirmed 는 출처 URL 이 원칙. 운영자가 직접 확인한 경우(verifiedBy: "operator")만 예외로 출처 없이 허용합니다.
+  if (r.verifiedBy !== undefined && r.verifiedBy !== "operator") err(`verifiedBy 오류 ${r.verifiedBy}`);
+  if (r.status === "confirmed" && !(r.sourceUrls?.length >= 1) && r.verifiedBy !== "operator") err("확정인데 출처 URL 없음");
   if (r.status === "confirmed" && !r.checkedAt) err("확정인데 확인일 없음");
   if (r.officialStock && !OFFICIAL_STOCK.includes(r.officialStock)) err(`officialStock 오류 ${r.officialStock}`);
   if (BGG_DOMAIN.test(JSON.stringify(r))) err("BGG 주소가 들어 있음");

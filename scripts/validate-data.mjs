@@ -39,7 +39,9 @@ for (const id of gameIds) if (!releases.some((r) => r.gameId === id)) err(`relea
 
 for (const s of summaries) {
   if (!gameIds.has(s.gameId)) err(`summaries.json[${s.gameId}]: games.json에 없는 게임`);
-  if (!s.sample && !(s.referenceLinks?.length >= 1)) err(`summaries.json[${s.gameId}]: 참고 리뷰 링크 없음`);
+  // 참고 리뷰 링크는 새로 쓰는 요약에 필수(주간 작업 지침)지만, 운영자가 검토한 기존 요약은 링크 없이도 허용합니다.
+  if (!Array.isArray(s.referenceLinks)) err(`summaries.json[${s.gameId}]: referenceLinks는 배열`);
+  for (const l of s.referenceLinks || []) if (!/^https?:\/\//.test(l.url || "")) err(`summaries.json[${s.gameId}]: 참고 리뷰 URL 오류`);
   for (const k of ["pros", "cons"]) {
     if (!(Array.isArray(s[k]) && s[k].length >= 1)) err(`summaries.json[${s.gameId}]: ${k}는 1개 이상의 배열`);
   }

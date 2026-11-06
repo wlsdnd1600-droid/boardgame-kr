@@ -25,6 +25,7 @@
    - 판매 페이지가 사라졌거나 장기 품절 → `outOfPrint`
    - 한국어판 흔적 없음 → `notReleased`
    - `sample` 상태 게임은 위 기준으로 다시 판정해 전부 다른 상태로 바꾼다.
+   - `verifiedBy: "operator"` 는 운영자가 직접 확인해 출처 URL 없이 `confirmed` 로 둔 게임이다. 상태를 낮추지 말고, 퍼블리셔 공식 페이지를 찾으면 `sourceUrls`·`publisher`·`buyUrl` 을 채운 뒤 `verifiedBy` 를 지운다. 이 값을 스스로 새로 붙이지 않는다.
    - 공식 몰의 재고 상태를 `officialStock` 에 `inStock`/`soldOut` 으로 기록한다. 품절이 한 번 보였다고 `outOfPrint` 로 바꾸지 않는다.
 3. **게임 정보** (`games.json`): 인원·시간·연령은 한국판 박스 표기(퍼블리셔 상품 정보) 우선, 다른 공개 출처 1곳 이상과 교차 확인한다.
    - `theme`: `public/assets/themes.svg` 의 id 중 게임 주제에 맞는 것 1개 (필수). 이 아이콘이 썸네일이다.
@@ -33,7 +34,7 @@
    - 장르: `genres.json` 의 id 중 1~3개. `two` 는 최대 인원이 2일 때만.
    - 베스트 인원: 게임 구조와 공개 리뷰를 근거로 추정.
    - 점수: `score.reviewTrend`(공개 리뷰 경향 0~10), `score.longevity`(재판·개정판·확장 출시 0~10), `awards`(winner/special/nominee).
-5. **해외 평 요약** (`summaries.json`): BGG 외 공개 리뷰 3~5개를 읽고 좋은 점 3, 아쉬운 점 2~3, 추천 대상 1줄. `referenceLinks` 에 [{title, url}]. 출처가 3개 미만이면 쓰지 않고 다음 주에 다시 시도한다. `sample` 표시는 지운다.
+5. **해외 평 요약** (`summaries.json`): BGG 외 공개 리뷰 3~5개를 읽고 좋은 점 3, 아쉬운 점 2~3, 추천 대상 1줄. `referenceLinks` 에 [{title, url}]. 출처가 3개 미만이면 쓰지 않고 다음 주에 다시 시도한다. `sample` 표시는 지운다. `referenceLinks` 가 빈 기존 요약(운영자 검토분)은 출처 3개 이상을 찾으면 새로 써서 링크를 채운다.
 6. **Supabase 정리** (service_role 키 사용, 연동된 경우만):
    - `reports` 에서 `status='open'` 인 제보를 읽고 위 기준으로 확인해 데이터에 반영. 처리 후 `status` 를 `applied`/`rejected`, `note` 에 이유.
    - `reviews` 에서 욕설·광고·게임과 무관한 글은 `hidden=true`.

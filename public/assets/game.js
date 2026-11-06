@@ -52,7 +52,7 @@ function releaseSection(r) {
       <dt>퍼블리셔</dt><dd>${e(r.publisher || "–")}</dd>
       <dt>출시일</dt><dd>${e(r.releaseDate || "–")}</dd>
       <dt>구매처</dt><dd>${r.buyUrl ? `<a href="${e(r.buyUrl)}" target="_blank" rel="noopener">공식 판매 페이지</a>` : "–"}${r.officialStock === "soldOut" ? ` <span class="badge warn">확인일 기준 공식 몰 품절</span>` : ""}</dd>
-      <dt>확인</dt><dd>${e(r.checkedAt || "–")} ${src ? `(${src})` : ""}</dd>
+      <dt>확인</dt><dd>${e(r.checkedAt || "–")} ${src ? `(${src})` : r.verifiedBy === "operator" ? "(운영자 확인)" : ""}</dd>
     </dl></section>`;
 }
 
@@ -65,7 +65,7 @@ function summarySection(s) {
       <div><h3>아쉬운 점</h3><ul>${s.cons.map((x) => `<li>${e(x)}</li>`).join("")}</ul></div>
     </div>
     <p class="recommend"><b>이런 분께 추천</b> ${e(s.recommendFor)}</p>
-    ${links ? `<h3>참고한 리뷰</h3><ul class="refs">${links}</ul>` : `<p class="muted small">${s.sample ? "예시 요약입니다. 실제 운영에서는 참고한 리뷰 링크가 함께 표시됩니다." : ""}</p>`}
+    ${links ? `<h3>참고한 리뷰</h3><ul class="refs">${links}</ul>` : ""}
     <p class="muted small">작성일 ${e(s.writtenAt)} · 리뷰 원문은 옮기지 않고 Claude가 자기 말로 정리했습니다.</p></section>`;
 }
 
