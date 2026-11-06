@@ -1,0 +1,50 @@
+[
+ {
+  "id": "party",
+  "label": "파티"
+ },
+ {
+  "id": "strategy",
+  "label": "전략"
+ },
+ {
+  "id": "worker",
+  "label": "일꾼 놓기"
+ },
+ {
+  "id": "deck",
+  "label": "덱 빌딩"
+ },
+ {
+  "id": "coop",
+  "label": "협력"
+ },
+ {
+  "id": "deduction",
+  "label": "추리·마피아"
+ },
+ {
+  "id": "tile",
+  "label": "타일·퍼즐"
+ },
+ {
+  "id": "area",
+  "label": "전쟁·영향력"
+ },
+ {
+  "id": "family",
+  "label": "가족·어린이"
+ },
+ {
+  "id": "trade",
+  "label": "경매·거래"
+ },
+ {
+  "id": "race",
+  "label": "레이스·주사위"
+ },
+ {
+  "id": "two",
+  "label": "2인 전용"
+ }
+]

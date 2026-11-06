@@ -1,0 +1,92 @@
+# 보드게임 고르기
+
+인원·난이도·장르를 고르면 **한국에 정식 발매된 보드게임만** 추천 점수순으로 보여주는 사이트입니다.
+데이터는 Claude 예약 작업이 매주 자동으로 갱신합니다. 자세한 기획은 기획서 문서를 참고하세요.
+
+> 현재 상태: **연동 전**. GitHub·Vercel·Supabase 에 연결하지 않았고, `public/data` 는 예시 데이터 21종입니다.
+> 예시 데이터의 한국 발매 여부·퍼블리셔는 확인 전이며, 첫 자동 실행에서 확인해 채웁니다.
+
+## 구조
+
+```
+public/                 ← Vercel 이 그대로 배포하는 폴더 (빌드 도구·의존성 없음)
+  index.html            메인: 필터 + 추천 목록
+  game.html             게임 상세 (/game?id=azul)
+  config.js             Supabase 공개 설정 (빌드 때 환경변수로 자동 생성)
+  assets/
+    data.js             데이터 로드, 추천 점수·난이도 계산
+    list.js             필터·정렬 화면
+    game.js             상세 화면, 회원 리뷰·제보
+    supabase.js         Supabase 연결 (설정이 없으면 "연동 전" 상태)
+    style.css
+  data/                 ← Claude 주간 작업이 갱신하는 데이터
+    games.json          게임 정보, 난이도, 장르, 점수 요소
+    releases.json       한국 발매 상태·퍼블리셔·출처
+    summaries.json      해외 평 AI 요약
+    genres.json         사이트 장르 12개
+    publishers.json     국내 퍼블리셔 목록
+    run-log.json        자동 실행 기록
+scripts/
+  build-config.mjs      환경변수 → public/config.js
+  validate-data.mjs     데이터 검사 (실패하면 빌드 중단)
+  serve.mjs             로컬 미리보기 서버
+supabase/schema.sql     회원 리뷰·제보 테이블과 보안 정책
+agent/weekly-update.md  Claude 예약 작업용 프롬프트
+```
+
+## 로컬에서 보기
+
+Node.js 18 이상만 있으면 됩니다. 설치할 패키지는 없습니다.
+
+```bash
+npm run dev        # http://localhost:3000
+npm run validate   # 데이터 검사
+```
+
+## 연동 방법 (나중에)
+
+### 1. GitHub
+1. 새 저장소를 만들고 이 폴더 전체를 올립니다.
+2. `agent/weekly-update.md` 의 `<OWNER>/<REPO>` 를 실제 저장소 이름으로 바꿉니다.
+
+### 2. Supabase
+1. 새 프로젝트를 만듭니다 (리전: Northeast Asia (Seoul) 권장).
+2. SQL Editor 에서 `supabase/schema.sql` 을 실행합니다.
+3. Settings → API 에서 `Project URL` 과 `anon public` 키를 복사합니다.
+4. `service_role` 키는 Claude 예약 작업에만 쓰고, 저장소·브라우저에는 절대 넣지 않습니다.
+
+### 3. Vercel
+1. Add New → Project 에서 GitHub 저장소를 가져옵니다. Framework Preset 은 **Other**.
+2. Environment Variables 에 `SUPABASE_URL`, `SUPABASE_ANON_KEY` 를 등록합니다.
+3. Deploy. 빌드 설정은 `vercel.json` 에 들어 있습니다 (빌드 = 설정 생성 + 데이터 검사, 출력 = `public`).
+4. 이후 main 브랜치에 푸시될 때마다 자동 배포됩니다.
+
+### 4. Claude 예약 작업
+1. Claude 에서 주 1회 예약 작업을 만들고 `agent/weekly-update.md` 의 프롬프트를 넣습니다.
+2. 작업이 GitHub 저장소에 푸시할 수 있도록 연결하고, Supabase service_role 키를 작업 환경에만 제공합니다.
+
+## 계산 규칙
+
+**난이도 (5점 만점, AI 산정)**
+
+| 단계 | 점수 | 기준 |
+| --- | --- | --- |
+| 입문 | 1.0–1.79 | 규칙 설명 10분 이내, 턴당 선택지 1~2개 |
+| 초급 | 1.8–2.59 | 핵심 메커니즘 1~2개, 30~60분 |
+| 중급 | 2.6–3.39 | 메커니즘 여러 개 결합, 장기 계획 필요 |
+| 중상급 | 3.4–4.19 | 예외 규칙 많음, 90분 이상 |
+| 고급 | 4.2–5.0 | 룰북 분량 큼, 2시간 이상 |
+
+**추천 점수 (10점 만점)** = 공개 리뷰 경향 50% + 수상 이력 20% + 시장 수명 10% + 회원 평점 20%
+
+- 수상 이력: 올해의 게임·전문가 게임상 수상 10, 특별상 8, 후보 7, 없음 5(중립)
+- 회원 평점: 별점(1~5)×2. 리뷰 5개 미만이면 빼고 나머지 비중으로 다시 계산
+- 가중치는 `public/assets/data.js` 의 `SCORE_WEIGHTS` 에서 바꿀 수 있습니다.
+
+**사이트에 보이는 발매 상태**: `confirmed`(정식 발매), `outOfPrint`(절판, 배지 표시), `sample`(예시 데이터).
+`candidate`·`upcoming`·`notReleased` 는 숨깁니다.
+
+## 주의
+- BoardGameGeek 페이지는 데이터 출처로 쓰지 않습니다 (BGG 약관의 AI 데이터 사용 금지). 상세 페이지에 BGG 검색 링크만 둡니다.
+- 리뷰 원문은 저장하지 않고 Claude 가 자기 말로 요약합니다.
+- 표지 이미지는 저작권 때문에 넣지 않았습니다. 퍼블리셔 허락을 받으면 `games.json` 에 이미지 필드를 추가해 쓰세요.

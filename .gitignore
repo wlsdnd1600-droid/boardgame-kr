@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+.vercel
+.DS_Store
+
+# 빌드 때 환경변수로 자동 생성되는 파일 (scripts/build-config.mjs)
+public/config.js

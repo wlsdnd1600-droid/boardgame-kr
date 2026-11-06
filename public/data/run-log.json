@@ -1,0 +1,36 @@
+{
+ "mode": "sample",
+ "lastRunAt": null,
+ "runs": [
+  {
+   "runAt": "2026-11-06",
+   "type": "init",
+   "added": [
+    "splendor",
+    "catan",
+    "ticket-to-ride",
+    "azul",
+    "wingspan",
+    "terraforming-mars",
+    "codenames",
+    "dixit",
+    "halli-galli",
+    "agricola",
+    "pandemic",
+    "carcassonne",
+    "7-wonders-duel",
+    "the-mind",
+    "avalon",
+    "brass-birmingham",
+    "kingdomino",
+    "dominion",
+    "love-letter",
+    "king-of-tokyo",
+    "small-world"
+   ],
+   "updated": [],
+   "held": [],
+   "note": "예시 데이터로 초기화. 한국 발매 여부·퍼블리셔는 첫 자동 실행에서 확인 예정"
+  }
+ ]
+}
